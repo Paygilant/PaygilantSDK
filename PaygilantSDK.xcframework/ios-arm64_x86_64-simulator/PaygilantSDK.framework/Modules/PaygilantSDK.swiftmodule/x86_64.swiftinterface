@@ -1,0 +1,615 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 effective-4.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name PaygilantSDK
+import AVKit
+import AdSupport
+import CoreTelephony.CTCarrier
+import SystemConfiguration.CaptiveNetwork
+import CommonCrypto/*.CC_LONG*/
+import CommonCrypto/*.CC_MD5*/
+import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import Contacts
+import CoreLocation
+import CoreMotion
+import CoreTelephony
+import EventKitUI
+import Foundation
+@_exported import PaygilantSDK
+import Photos
+import StoreKit
+import Swift
+import SystemConfiguration
+import UIKit
+import Vision
+@objc @_hasMissingDesignatedInitializers @objcMembers public class CheckPoint : ObjectiveC.NSObject {
+  @objc public func setAdditionalData(additionalData: [Swift.String : Any])
+  @objc required public init?(json: [Swift.String : Any])
+  @objc public func getJson() -> [Swift.String : Any]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers public class Register : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User?)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+public enum PaygilantError : Swift.Error {
+  case message
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: PaygilantSDK.PaygilantError, b: PaygilantSDK.PaygilantError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
+  @objc public static var shared: PaygilantSDK.PaygilantManager
+  @objc public func setup(serverUrl: Swift.String, userId: Swift.String? = nil) throws
+  @objc public func getSessionId() -> Swift.String?
+  @objc public func getDeviceId() -> Swift.String?
+  @objc public func logout()
+  @objc public func getRiskForCheckPoint(checkPoint: PaygilantSDK.CheckPoint, completion: @escaping (PaygilantSDK.Risk, Swift.String, Swift.String) -> Swift.Void)
+  @objc public func arriveToCheckPoint(checkPoint: PaygilantSDK.CheckPoint)
+  @objc public func updateCheckPointStatus(type: PaygilantSDK.CheckPointType, requestID: Swift.String, status: PaygilantSDK.CheckPointStatus, transactionID: Swift.String?)
+  @objc public func startNewScreenListener(with type: PaygilantSDK.ScreenListenerType, actionId: Swift.Int, view: UIKit.UIView) -> PaygilantSDK.PaygilantScreenListener
+  @objc public func initializeDeviceId()
+  @objc public func onRequestAccess(typeMobilePermission: PaygilantSDK.MobilePermission)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CreditCardDetail {
+  public init(cardToken: Swift.String? = nil, cardId: Swift.String? = nil, bin: Swift.String? = nil, lastFourDigit: Swift.String? = nil, yearExpiryDate: Swift.Int? = nil, monthExpiryDate: Swift.Int? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+public class BankAccountDetails {
+  public init(number: Swift.String? = nil, fullName: Swift.String? = nil, bsb: Swift.String? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc public enum CheckPointStatus : Swift.Int, Swift.CaseIterable {
+  case APPROVED
+  case DENIED
+  case CANCELLED
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.CheckPointStatus]
+  public static var allCases: [PaygilantSDK.CheckPointStatus] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointStatusToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.CheckPointStatus) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CheckPointStatus
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointStatusEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.CheckPointStatus]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum VerificationType : Swift.Int, Swift.CaseIterable {
+  case VERIFIED
+  case NOT_VERIFIED
+  case UNKNOWN
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.VerificationType]
+  public static var allCases: [PaygilantSDK.VerificationType] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class VerificationTypeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.VerificationType) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.VerificationType
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class VerificationTypeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.VerificationType]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers public class General : PaygilantSDK.CheckPoint {
+  @objc public init(userId: Swift.String? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc public enum CurrencyCode : Swift.Int, Swift.CaseIterable {
+  case AFN
+  case EUR
+  case ALL
+  case DZD
+  case USD
+  case AOA
+  case XCD
+  case ARS
+  case AMD
+  case AWG
+  case AUD
+  case AZN
+  case BSD
+  case BHD
+  case BDT
+  case BBD
+  case BYN
+  case BZD
+  case XOF
+  case BMD
+  case INR
+  case BTN
+  case BOB
+  case BOV
+  case BAM
+  case BWP
+  case NOK
+  case BRL
+  case BND
+  case BGN
+  case BIF
+  case CVE
+  case KHR
+  case XAF
+  case CAD
+  case KYD
+  case CLP
+  case CLF
+  case CNY
+  case COP
+  case COU
+  case KMF
+  case CDF
+  case NZD
+  case CRC
+  case HRK
+  case CUP
+  case CUC
+  case ANG
+  case CZK
+  case DKK
+  case DJF
+  case DOP
+  case EGP
+  case SVC
+  case ERN
+  case ETB
+  case FKP
+  case FJD
+  case XPF
+  case GMD
+  case GEL
+  case GHS
+  case GIP
+  case GTQ
+  case GBP
+  case GNF
+  case GYD
+  case HTG
+  case HNL
+  case HKD
+  case HUF
+  case ISK
+  case IDR
+  case XDR
+  case IRR
+  case IQD
+  case ILS
+  case JMD
+  case JPY
+  case JOD
+  case KZT
+  case KES
+  case KPW
+  case KRW
+  case KWD
+  case KGS
+  case LAK
+  case LBP
+  case LSL
+  case ZAR
+  case LRD
+  case LYD
+  case CHF
+  case MOP
+  case MKD
+  case MGA
+  case MWK
+  case MYR
+  case MVR
+  case MRU
+  case MUR
+  case XUA
+  case MXN
+  case MXV
+  case MDL
+  case MNT
+  case MAD
+  case MZN
+  case MMK
+  case NAD
+  case NPR
+  case NIO
+  case NGN
+  case OMR
+  case PKR
+  case PAB
+  case PGK
+  case PYG
+  case PEN
+  case PHP
+  case PLN
+  case QAR
+  case RON
+  case RUB
+  case RWF
+  case SHP
+  case WST
+  case STN
+  case SAR
+  case RSD
+  case SCR
+  case SLL
+  case SGD
+  case XSU
+  case SBD
+  case SOS
+  case SSP
+  case LKR
+  case SDG
+  case SRD
+  case SZL
+  case SEK
+  case CHE
+  case CHW
+  case SYP
+  case TWD
+  case TJS
+  case TZS
+  case THB
+  case TOP
+  case TTD
+  case TND
+  case TRY
+  case TMT
+  case UGX
+  case UAH
+  case AED
+  case USN
+  case UYU
+  case UYI
+  case UYW
+  case UZS
+  case VUV
+  case VES
+  case VND
+  case YER
+  case ZMW
+  case ZWL
+  case XBA
+  case XBB
+  case XBC
+  case XBD
+  case XTS
+  case XXX
+  case XAU
+  case XPD
+  case XPT
+  case XAG
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.CurrencyCode]
+  public static var allCases: [PaygilantSDK.CurrencyCode] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CurrencyCodeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.CurrencyCode) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CurrencyCode
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CurrencyCodeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.CurrencyCode]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum TransactionType : Swift.Int {
+  case PURCHASE
+  case MONEY_TRANSFER
+  case DEPOSIT
+  case WITHDRAW
+  @available(*, deprecated, renamed: "MONEY_TRANSFER", message: "no longer available ...")
+  case P2P
+  @available(*, deprecated, renamed: "PURCHASE", message: "no longer available ...")
+  case IN_STORE
+  @available(*, deprecated, renamed: "DEPOSIT", message: "no longer available ...")
+  case LOAD
+  @available(*, deprecated, renamed: "PURCHASE", message: "no longer available ...")
+  case AIRTIME
+  @available(*, deprecated, renamed: "PURCHASE", message: "no longer available ...")
+  case ONLINE_STORE
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class TransactionTypeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.TransactionType) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.TransactionType
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class TransactionTypeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.TransactionType]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum PaymentMethodType : Swift.Int, Swift.CaseIterable {
+  case CREDIT_CARD
+  case BANK_ACCOUNT
+  case ECHECK
+  case UNKNOWN
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.PaymentMethodType]
+  public static var allCases: [PaygilantSDK.PaymentMethodType] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PaymentMethodTypeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.PaymentMethodType) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.PaymentMethodType
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class PaymentMethodTypeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.PaymentMethodType]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers public class Payment {
+  public init(paymentMethod: PaygilantSDK.PaymentMethodType? = nil, processor: Swift.String? = nil, fullNameOnCard: Swift.String? = nil, paymentMethodId: Swift.String? = nil, creditCardDetail: PaygilantSDK.CreditCardDetail? = nil, bankAccountDetails: PaygilantSDK.BankAccountDetails? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class Launch : PaygilantSDK.CheckPoint {
+  @objc public init(userId: Swift.String? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class AuthorizationResponse {
+  public init(verificationStatus: Swift.String? = nil, aVSResultCode: Swift.String? = nil, declineReasonCode: Swift.String? = nil, declineReasonMessage: Swift.String? = nil, acquirerResponseCode: Swift.String? = nil, acquirerResponseMessage: Swift.String? = nil, threeDSResponseStatus: Swift.String? = nil, threeDSResponseEnrolled: Swift.String? = nil, threeDSResponseECI: Swift.String? = nil)
+  public func getJson() -> [Swift.String : Any]
+  @objc deinit
+}
+@objc public enum RiskLevel : Swift.Int, Swift.CaseIterable {
+  case expire = -2
+  case undefined = -1
+  case low = 0
+  case medium = 1
+  case high = 2
+  case veryHign = 3
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.RiskLevel]
+  public static var allCases: [PaygilantSDK.RiskLevel] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class RiskLevelEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.RiskLevel]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class Risk : ObjectiveC.NSObject {
+  @objc public var riskLevel: PaygilantSDK.RiskLevel {
+    get
+  }
+  @objc public func stringValue() -> Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc public enum ScreenListenerType : Swift.Int, Swift.CaseIterable {
+  case REGISTRATION_FORM
+  case LOGIN_FORM
+  case MAIN_SCREEN
+  case CATALOG_SCREEN
+  case SEARCH_SCREEN
+  case PRODUCT_SCREEN
+  case GENERAL_FORM
+  case PINCODE
+  case TRANSACTION_DETAILS
+  case CONTACTS
+  case PAYMENT_SCREEN
+  case EMULATOR_CHECK
+  case GENERAL
+  case ADD_PAYMENT_SCREEN
+  case WITHDRAW_SCREEN
+  case DEPOSIT_SCREEN
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.ScreenListenerType]
+  public static var allCases: [PaygilantSDK.ScreenListenerType] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ScreenListenerTypeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.ScreenListenerType) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.ScreenListenerType
+  public static func fromString(nillableString: Swift.String) -> PaygilantSDK.ScreenListenerType?
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ScreenListenerTypeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.ScreenListenerType]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+public class Address {
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, state: Swift.String? = nil, country: Swift.String? = nil, postalCode: Swift.String? = nil, phoneNumber: Swift.String? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc public enum MobilePermission : Swift.Int, Swift.CaseIterable {
+  case readContacts
+  case authorizedAlways
+  case authorizedWhenInUse
+  case camera
+  case reminder
+  case calendar
+  case photo
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.MobilePermission]
+  public static var allCases: [PaygilantSDK.MobilePermission] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.MobilePermission) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.MobilePermission
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.MobilePermission]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@_hasMissingDesignatedInitializers public class User {
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantScreenListener : ObjectiveC.NSObject {
+  @objc public init(type: PaygilantSDK.ScreenListenerType, actionId: Swift.Int, view: UIKit.UIView)
+  @objc @available(*, deprecated, message: "no longer available, use startScreenListener in viewWillAppear...")
+  public func resumeListen()
+  @objc public func finishScreenListener()
+  @objc deinit
+}
+extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
+  @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers public class Login : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User?)
+  @objc public init(login: PaygilantSDK.Login)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class AddPaymentMethod : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User? = nil, payment: PaygilantSDK.Payment? = nil, billingAddress: PaygilantSDK.Address? = nil)
+  @objc @available(*, deprecated, message: "no longer avalible...")
+  public init(userId: Swift.String, paymentMethodToken: Swift.String)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+@objc public enum CheckPointType : Swift.Int, Swift.CaseIterable {
+  case LAUNCH
+  case REGISTER
+  case LOGIN
+  case TRANSACTION
+  case UPDATE_DETAILS
+  case ADD_PAYMENT_METHOD
+  case GENERAL
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public typealias AllCases = [PaygilantSDK.CheckPointType]
+  public static var allCases: [PaygilantSDK.CheckPointType] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointTypeToString : ObjectiveC.NSObject {
+  @objc public static func toString(type: PaygilantSDK.CheckPointType) -> Swift.String
+  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CheckPointType
+  public static func fromString(nillableString: Swift.String) -> PaygilantSDK.CheckPointType?
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointTypeEnumerator : ObjectiveC.NSObject {
+  public static func array() -> [PaygilantSDK.CheckPointType]
+  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_hasMissingDesignatedInitializers public class Transaction : PaygilantSDK.CheckPoint {
+  @objc public init(time_nsdata: Foundation.NSDate, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, userID: Swift.String, amount: Swift.Double, destinationId: Swift.String, paymentMethod: Swift.String)
+  public init(time_stamp: Swift.Int64, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, destinationId: Swift.String? = nil, amount: Swift.Double, user: PaygilantSDK.User? = nil, billingAddress: PaygilantSDK.Address? = nil, shippingAddress: PaygilantSDK.Address? = nil, payment: PaygilantSDK.Payment? = nil, authorizationResponse: PaygilantSDK.AuthorizationResponse? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
+extension PaygilantSDK.PaygilantError : Swift.Equatable {}
+extension PaygilantSDK.PaygilantError : Swift.Hashable {}
+extension PaygilantSDK.CheckPointStatus : Swift.Equatable {}
+extension PaygilantSDK.CheckPointStatus : Swift.Hashable {}
+extension PaygilantSDK.CheckPointStatus : Swift.RawRepresentable {}
+extension PaygilantSDK.VerificationType : Swift.Equatable {}
+extension PaygilantSDK.VerificationType : Swift.Hashable {}
+extension PaygilantSDK.VerificationType : Swift.RawRepresentable {}
+extension PaygilantSDK.CurrencyCode : Swift.Equatable {}
+extension PaygilantSDK.CurrencyCode : Swift.Hashable {}
+extension PaygilantSDK.CurrencyCode : Swift.RawRepresentable {}
+extension PaygilantSDK.TransactionType : Swift.Equatable {}
+extension PaygilantSDK.TransactionType : Swift.Hashable {}
+extension PaygilantSDK.TransactionType : Swift.RawRepresentable {}
+extension PaygilantSDK.PaymentMethodType : Swift.Equatable {}
+extension PaygilantSDK.PaymentMethodType : Swift.Hashable {}
+extension PaygilantSDK.PaymentMethodType : Swift.RawRepresentable {}
+extension PaygilantSDK.RiskLevel : Swift.Equatable {}
+extension PaygilantSDK.RiskLevel : Swift.Hashable {}
+extension PaygilantSDK.RiskLevel : Swift.RawRepresentable {}
+extension PaygilantSDK.ScreenListenerType : Swift.Equatable {}
+extension PaygilantSDK.ScreenListenerType : Swift.Hashable {}
+extension PaygilantSDK.ScreenListenerType : Swift.RawRepresentable {}
+extension PaygilantSDK.MobilePermission : Swift.Equatable {}
+extension PaygilantSDK.MobilePermission : Swift.Hashable {}
+extension PaygilantSDK.MobilePermission : Swift.RawRepresentable {}
+extension PaygilantSDK.CheckPointType : Swift.Equatable {}
+extension PaygilantSDK.CheckPointType : Swift.Hashable {}
+extension PaygilantSDK.CheckPointType : Swift.RawRepresentable {}
