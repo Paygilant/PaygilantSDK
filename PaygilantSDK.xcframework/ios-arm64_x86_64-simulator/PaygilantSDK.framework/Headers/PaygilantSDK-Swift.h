@@ -286,6 +286,9 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypeUPDATE_DETAILS = 4,
   CheckPointTypeADD_PAYMENT_METHOD = 5,
   CheckPointTypeGENERAL = 6,
+  CheckPointTypeUPDATE_USER_INFO = 7,
+  CheckPointTypePASSWORD_CHANGE = 8,
+  CheckPointTypeNONE = 9,
 };
 
 
@@ -565,6 +568,17 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+/// PasswordChange checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK14PasswordChange")
+@interface PasswordChange : CheckPoint
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class Risk;
 enum ScreenListenerType : NSInteger;
 @class UIView;
@@ -828,6 +842,16 @@ typedef SWIFT_ENUM(NSInteger, TransactionType, open) {
   TransactionTypeAIRTIME = 7,
 /// Online merchant transaction
   TransactionTypeONLINE_STORE = 8,
+/// external system money deposit
+  TransactionTypeEXTERNAL_DEPOSIT = 9,
+/// external server to server money transfer
+  TransactionTypeEXTERNAL_MONEY_TRANSFER = 10,
+  TransactionTypeINTERNATIONAL_MONEY_TRANSFER = 11,
+  TransactionTypeDEBIT_CARD = 12,
+  TransactionTypeCREDIT_CARD = 13,
+  TransactionTypeGIFT_CARD = 14,
+  TransactionTypeSAVING_DEPOSIT = 15,
+  TransactionTypeSAVING_WITHDRAW = 16,
 };
 
 
@@ -843,6 +867,17 @@ SWIFT_CLASS("_TtC12PaygilantSDK23TransactionTypeToString")
 + (NSString * _Nonnull)toStringWithType:(enum TransactionType)type SWIFT_WARN_UNUSED_RESULT;
 + (enum TransactionType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// UpdateUserInfo checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK14UpdateUserInfo")
+@interface UpdateUserInfo : CheckPoint
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, VerificationType, open) {
@@ -1159,6 +1194,9 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypeUPDATE_DETAILS = 4,
   CheckPointTypeADD_PAYMENT_METHOD = 5,
   CheckPointTypeGENERAL = 6,
+  CheckPointTypeUPDATE_USER_INFO = 7,
+  CheckPointTypePASSWORD_CHANGE = 8,
+  CheckPointTypeNONE = 9,
 };
 
 
@@ -1438,6 +1476,17 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+/// PasswordChange checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK14PasswordChange")
+@interface PasswordChange : CheckPoint
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class Risk;
 enum ScreenListenerType : NSInteger;
 @class UIView;
@@ -1701,6 +1750,16 @@ typedef SWIFT_ENUM(NSInteger, TransactionType, open) {
   TransactionTypeAIRTIME = 7,
 /// Online merchant transaction
   TransactionTypeONLINE_STORE = 8,
+/// external system money deposit
+  TransactionTypeEXTERNAL_DEPOSIT = 9,
+/// external server to server money transfer
+  TransactionTypeEXTERNAL_MONEY_TRANSFER = 10,
+  TransactionTypeINTERNATIONAL_MONEY_TRANSFER = 11,
+  TransactionTypeDEBIT_CARD = 12,
+  TransactionTypeCREDIT_CARD = 13,
+  TransactionTypeGIFT_CARD = 14,
+  TransactionTypeSAVING_DEPOSIT = 15,
+  TransactionTypeSAVING_WITHDRAW = 16,
 };
 
 
@@ -1716,6 +1775,17 @@ SWIFT_CLASS("_TtC12PaygilantSDK23TransactionTypeToString")
 + (NSString * _Nonnull)toStringWithType:(enum TransactionType)type SWIFT_WARN_UNUSED_RESULT;
 + (enum TransactionType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// UpdateUserInfo checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK14UpdateUserInfo")
+@interface UpdateUserInfo : CheckPoint
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, VerificationType, open) {

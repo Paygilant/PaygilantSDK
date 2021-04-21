@@ -21,12 +21,18 @@ import Swift
 import SystemConfiguration
 import UIKit
 import Vision
+@objc @_hasMissingDesignatedInitializers public class PasswordChange : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers @objcMembers public class CheckPoint : ObjectiveC.NSObject {
   @objc public func setAdditionalData(additionalData: [Swift.String : Any])
   @objc required public init?(json: [Swift.String : Any])
   @objc public func getJson() -> [Swift.String : Any]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Register : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User?)
@@ -61,6 +67,12 @@ public enum PaygilantError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers public class CreditCardDetail {
   public init(cardToken: Swift.String? = nil, cardId: Swift.String? = nil, bin: Swift.String? = nil, lastFourDigit: Swift.String? = nil, yearExpiryDate: Swift.Int? = nil, monthExpiryDate: Swift.Int? = nil)
+  public func getJson() -> [Swift.String : Any]
+  public init(json: [Swift.String : Any])
+  @objc deinit
+}
+public class MerchantDetails {
+  public init(merchantName: Swift.String? = nil, merchantCode: Swift.String? = nil, merchantAddress: PaygilantSDK.Address? = nil)
   public func getJson() -> [Swift.String : Any]
   public init(json: [Swift.String : Any])
   @objc deinit
@@ -346,6 +358,14 @@ public class BankAccountDetails {
   case AIRTIME
   @available(*, deprecated, renamed: "PURCHASE", message: "no longer available ...")
   case ONLINE_STORE
+  case EXTERNAL_DEPOSIT
+  case EXTERNAL_MONEY_TRANSFER
+  case INTERNATIONAL_MONEY_TRANSFER
+  case DEBIT_CARD
+  case CREDIT_CARD
+  case GIFT_CARD
+  case SAVING_DEPOSIT
+  case SAVING_WITHDRAW
   public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
   public var rawValue: Swift.Int {
@@ -479,6 +499,12 @@ public class BankAccountDetails {
   @objc deinit
   @objc override dynamic public init()
 }
+@objc @_hasMissingDesignatedInitializers public class UpdateUserInfo : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
 public class Address {
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, state: Swift.String? = nil, country: Swift.String? = nil, postalCode: Swift.String? = nil, phoneNumber: Swift.String? = nil)
   public func getJson() -> [Swift.String : Any]
@@ -516,7 +542,7 @@ public class Address {
   @objc override dynamic public init()
 }
 @_hasMissingDesignatedInitializers public class User {
-  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil)
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = nil)
   public func getJson() -> [Swift.String : Any]
   public init(json: [Swift.String : Any])
   @objc deinit
@@ -554,6 +580,9 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
   case UPDATE_DETAILS
   case ADD_PAYMENT_METHOD
   case GENERAL
+  case UPDATE_USER_INFO
+  case PASSWORD_CHANGE
+  case NONE
   public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
   public var rawValue: Swift.Int {
@@ -579,7 +608,7 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
 }
 @objc @_hasMissingDesignatedInitializers public class Transaction : PaygilantSDK.CheckPoint {
   @objc public init(time_nsdata: Foundation.NSDate, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, userID: Swift.String, amount: Swift.Double, destinationId: Swift.String, paymentMethod: Swift.String)
-  public init(time_stamp: Swift.Int64, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, destinationId: Swift.String? = nil, amount: Swift.Double, user: PaygilantSDK.User? = nil, billingAddress: PaygilantSDK.Address? = nil, shippingAddress: PaygilantSDK.Address? = nil, payment: PaygilantSDK.Payment? = nil, authorizationResponse: PaygilantSDK.AuthorizationResponse? = nil)
+  public init(time_stamp: Swift.Int64, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, destinationId: Swift.String? = nil, amount: Swift.Double, user: PaygilantSDK.User? = nil, billingAddress: PaygilantSDK.Address? = nil, shippingAddress: PaygilantSDK.Address? = nil, payment: PaygilantSDK.Payment? = nil, authorizationResponse: PaygilantSDK.AuthorizationResponse? = nil, merchantDetails: PaygilantSDK.MerchantDetails? = nil)
   @objc override public func getJson() -> [Swift.String : Any]
   @objc required public init(json: [Swift.String : Any])
   @objc deinit
