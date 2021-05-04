@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 effective-4.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.4 effective-4.2 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name PaygilantSDK
 import AVKit
 import AdSupport
@@ -46,10 +46,10 @@ public enum PaygilantError : Swift.Error {
     get
   }
   public static func == (a: PaygilantSDK.PaygilantError, b: PaygilantSDK.PaygilantError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
   @objc public static var shared: PaygilantSDK.PaygilantManager
@@ -87,53 +87,53 @@ public class BankAccountDetails {
   case APPROVED
   case DENIED
   case CANCELLED
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.CheckPointStatus]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.CheckPointStatus] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.CheckPointStatus]
-  public static var allCases: [PaygilantSDK.CheckPointStatus] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointStatusToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.CheckPointStatus) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CheckPointStatus
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointStatusEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.CheckPointStatus]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum VerificationType : Swift.Int, Swift.CaseIterable {
   case VERIFIED
   case NOT_VERIFIED
   case UNKNOWN
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.VerificationType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.VerificationType] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.VerificationType]
-  public static var allCases: [PaygilantSDK.VerificationType] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class VerificationTypeToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.VerificationType) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.VerificationType
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class VerificationTypeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.VerificationType]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class General : PaygilantSDK.CheckPoint {
   @objc public init(userId: Swift.String? = nil)
@@ -321,27 +321,27 @@ public class BankAccountDetails {
   case XPD
   case XPT
   case XAG
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.CurrencyCode]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.CurrencyCode] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.CurrencyCode]
-  public static var allCases: [PaygilantSDK.CurrencyCode] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class CurrencyCodeToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.CurrencyCode) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CurrencyCode
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class CurrencyCodeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.CurrencyCode]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum TransactionType : Swift.Int {
   case PURCHASE
@@ -366,8 +366,9 @@ public class BankAccountDetails {
   case GIFT_CARD
   case SAVING_DEPOSIT
   case SAVING_WITHDRAW
-  public typealias RawValue = Swift.Int
+  case BILL_PAYMENT
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -375,41 +376,41 @@ public class BankAccountDetails {
 @objc @_inheritsConvenienceInitializers @objcMembers public class TransactionTypeToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.TransactionType) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.TransactionType
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class TransactionTypeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.TransactionType]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum PaymentMethodType : Swift.Int, Swift.CaseIterable {
   case CREDIT_CARD
   case BANK_ACCOUNT
   case ECHECK
   case UNKNOWN
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.PaymentMethodType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.PaymentMethodType] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.PaymentMethodType]
-  public static var allCases: [PaygilantSDK.PaymentMethodType] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class PaymentMethodTypeToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.PaymentMethodType) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.PaymentMethodType
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class PaymentMethodTypeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.PaymentMethodType]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Payment {
   public init(paymentMethod: PaygilantSDK.PaymentMethodType? = nil, processor: Swift.String? = nil, fullNameOnCard: Swift.String? = nil, paymentMethodId: Swift.String? = nil, creditCardDetail: PaygilantSDK.CreditCardDetail? = nil, bankAccountDetails: PaygilantSDK.BankAccountDetails? = nil)
@@ -435,29 +436,29 @@ public class BankAccountDetails {
   case medium = 1
   case high = 2
   case veryHign = 3
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.RiskLevel]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.RiskLevel] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.RiskLevel]
-  public static var allCases: [PaygilantSDK.RiskLevel] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class RiskLevelEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.RiskLevel]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class Risk : ObjectiveC.NSObject {
   @objc public var riskLevel: PaygilantSDK.RiskLevel {
     get
   }
   @objc public func stringValue() -> Swift.String
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum ScreenListenerType : Swift.Int, Swift.CaseIterable {
   case REGISTRATION_FORM
@@ -476,13 +477,13 @@ public class BankAccountDetails {
   case ADD_PAYMENT_SCREEN
   case WITHDRAW_SCREEN
   case DEPOSIT_SCREEN
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.ScreenListenerType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.ScreenListenerType] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.ScreenListenerType]
-  public static var allCases: [PaygilantSDK.ScreenListenerType] {
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -490,14 +491,14 @@ public class BankAccountDetails {
   @objc public static func toString(type: PaygilantSDK.ScreenListenerType) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.ScreenListenerType
   public static func fromString(nillableString: Swift.String) -> PaygilantSDK.ScreenListenerType?
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class ScreenListenerTypeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.ScreenListenerType]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class UpdateUserInfo : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User? = nil)
@@ -519,27 +520,27 @@ public class Address {
   case reminder
   case calendar
   case photo
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.MobilePermission]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.MobilePermission] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.MobilePermission]
-  public static var allCases: [PaygilantSDK.MobilePermission] {
+  public var rawValue: Swift.Int {
     get
   }
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionToString : ObjectiveC.NSObject {
   @objc public static func toString(type: PaygilantSDK.MobilePermission) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.MobilePermission
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.MobilePermission]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class User {
   public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = nil)
@@ -583,13 +584,13 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
   case UPDATE_USER_INFO
   case PASSWORD_CHANGE
   case NONE
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
-  public var rawValue: Swift.Int {
+  public typealias AllCases = [PaygilantSDK.CheckPointType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PaygilantSDK.CheckPointType] {
     get
   }
-  public typealias AllCases = [PaygilantSDK.CheckPointType]
-  public static var allCases: [PaygilantSDK.CheckPointType] {
+  public var rawValue: Swift.Int {
     get
   }
 }
@@ -597,14 +598,14 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
   @objc public static func toString(type: PaygilantSDK.CheckPointType) -> Swift.String
   @objc public static func fromString(string: Swift.String) -> PaygilantSDK.CheckPointType
   public static func fromString(nillableString: Swift.String) -> PaygilantSDK.CheckPointType?
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @objcMembers public class CheckPointTypeEnumerator : ObjectiveC.NSObject {
   public static func array() -> [PaygilantSDK.CheckPointType]
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Transaction : PaygilantSDK.CheckPoint {
   @objc public init(time_nsdata: Foundation.NSDate, actType: PaygilantSDK.TransactionType, curType: PaygilantSDK.CurrencyCode, userID: Swift.String, amount: Swift.Double, destinationId: Swift.String, paymentMethod: Swift.String)
