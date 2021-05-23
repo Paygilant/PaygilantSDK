@@ -291,6 +291,7 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypeUPDATE_USER_INFO = 7,
   CheckPointTypePASSWORD_CHANGE = 8,
   CheckPointTypeNONE = 9,
+  CheckPointTypeVIEW_CARD_DETAILS = 10,
 };
 
 
@@ -903,6 +904,18 @@ SWIFT_CLASS("_TtC12PaygilantSDK24VerificationTypeToString")
 + (NSString * _Nonnull)toStringWithType:(enum VerificationType)type SWIFT_WARN_UNUSED_RESULT;
 + (enum VerificationType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// ViewCardDetails checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK15ViewCardDetails")
+@interface ViewCardDetails : CheckPoint
+- (nonnull instancetype)initWithViewCardDetails:(ViewCardDetails * _Nonnull)viewCardDetails OBJC_DESIGNATED_INITIALIZER;
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)
@@ -1203,6 +1216,7 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypeUPDATE_USER_INFO = 7,
   CheckPointTypePASSWORD_CHANGE = 8,
   CheckPointTypeNONE = 9,
+  CheckPointTypeVIEW_CARD_DETAILS = 10,
 };
 
 
@@ -1815,6 +1829,18 @@ SWIFT_CLASS("_TtC12PaygilantSDK24VerificationTypeToString")
 + (NSString * _Nonnull)toStringWithType:(enum VerificationType)type SWIFT_WARN_UNUSED_RESULT;
 + (enum VerificationType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// ViewCardDetails checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK15ViewCardDetails")
+@interface ViewCardDetails : CheckPoint
+- (nonnull instancetype)initWithViewCardDetails:(ViewCardDetails * _Nonnull)viewCardDetails OBJC_DESIGNATED_INITIALIZER;
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

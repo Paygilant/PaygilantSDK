@@ -573,6 +573,13 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
   @objc required public init(json: [Swift.String : Any])
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class ViewCardDetails : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User? = nil, creditCardDetail: PaygilantSDK.CreditCardDetail? = nil)
+  @objc public init(viewCardDetails: PaygilantSDK.ViewCardDetails)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
 @objc public enum CheckPointType : Swift.Int, Swift.CaseIterable {
   case LAUNCH
   case REGISTER
@@ -584,6 +591,7 @@ extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
   case UPDATE_USER_INFO
   case PASSWORD_CHANGE
   case NONE
+  case VIEW_CARD_DETAILS
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.CheckPointType]
   public typealias RawValue = Swift.Int
