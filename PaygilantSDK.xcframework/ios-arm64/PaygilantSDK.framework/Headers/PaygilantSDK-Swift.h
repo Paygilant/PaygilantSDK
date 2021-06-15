@@ -552,6 +552,7 @@ typedef SWIFT_ENUM(NSInteger, MobilePermission, open) {
   MobilePermissionReminder = 4,
   MobilePermissionCalendar = 5,
   MobilePermissionPhoto = 6,
+  MobilePermissionIdfa = 7,
 };
 
 

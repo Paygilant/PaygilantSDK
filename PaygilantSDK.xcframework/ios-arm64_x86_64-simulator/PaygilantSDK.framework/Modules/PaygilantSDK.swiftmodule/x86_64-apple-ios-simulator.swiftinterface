@@ -521,6 +521,7 @@ public class Address {
   case reminder
   case calendar
   case photo
+  case idfa
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.MobilePermission]
   public typealias RawValue = Swift.Int
