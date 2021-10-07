@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 effective-4.2 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.5 effective-4.2 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name PaygilantSDK
 import AVKit
 import AdSupport
@@ -22,6 +22,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import Vision
+import _Concurrency
 @objc @_hasMissingDesignatedInitializers public class PasswordChange : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User? = nil)
   @objc override public func getJson() -> [Swift.String : Any]
@@ -32,7 +33,6 @@ import Vision
   @objc public func setAdditionalData(additionalData: [Swift.String : Any])
   @objc required public init?(json: [Swift.String : Any])
   @objc public func getJson() -> [Swift.String : Any]
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class Register : PaygilantSDK.CheckPoint {
@@ -478,6 +478,7 @@ public class BankAccountDetails {
   case ADD_PAYMENT_SCREEN
   case WITHDRAW_SCREEN
   case DEPOSIT_SCREEN
+  case NOTIFICATION
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.ScreenListenerType]
   public typealias RawValue = Swift.Int
@@ -557,8 +558,8 @@ public class Address {
   @objc public func finishScreenListener()
   @objc deinit
 }
-extension PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
-  @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+extension PaygilantSDK.PaygilantScreenListener : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers public class Login : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User?)
