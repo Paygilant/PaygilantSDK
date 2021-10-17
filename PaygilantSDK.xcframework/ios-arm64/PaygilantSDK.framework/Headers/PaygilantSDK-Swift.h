@@ -290,6 +290,7 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypePASSWORD_CHANGE = 8,
   CheckPointTypeNONE = 9,
   CheckPointTypeVIEW_CARD_DETAILS = 10,
+  CheckPointTypeSCREEN_DATA = 11,
 };
 
 
@@ -610,6 +611,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// returns:
 /// device id
 - (NSString * _Nullable)getDeviceId SWIFT_WARN_UNUSED_RESULT;
+/// After the login or registration process,
+/// When the user receives the “user id”, the app needs to update the SDK with this information.
+/// \param userId user Id, default: “UNKNOWN”
+///
+- (void)setUserIdWithUserId:(NSString * _Nullable)userId;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout;
 /// Called when arriving at a specific predefined checkpoint and the application needs to get Paygilant’s Risk Score.
@@ -754,6 +760,17 @@ SWIFT_CLASS("_TtC12PaygilantSDK19RiskLevelEnumerator")
 /// [String: NSNumber]
 + (NSDictionary<NSString *, NSNumber *> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// ScreenData checkpoint, to be used during login attempt
+SWIFT_CLASS("_TtC12PaygilantSDK10ScreenData")
+@interface ScreenData : CheckPoint
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {

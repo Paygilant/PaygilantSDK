@@ -35,6 +35,12 @@ import _Concurrency
   @objc public func getJson() -> [Swift.String : Any]
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class ScreenData : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User? = nil)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
 @objc @_hasMissingDesignatedInitializers public class Register : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User?)
   @objc override public func getJson() -> [Swift.String : Any]
@@ -57,6 +63,7 @@ public enum PaygilantError : Swift.Error {
   @objc public func setup(serverUrl: Swift.String, userId: Swift.String? = nil) throws
   @objc public func getSessionId() -> Swift.String?
   @objc public func getDeviceId() -> Swift.String?
+  @objc public func setUserId(userId: Swift.String?)
   @objc public func logout()
   @objc public func getRiskForCheckPoint(checkPoint: PaygilantSDK.CheckPoint, completion: @escaping (PaygilantSDK.Risk, Swift.String, Swift.String) -> Swift.Void)
   @objc public func arriveToCheckPoint(checkPoint: PaygilantSDK.CheckPoint)
@@ -595,6 +602,7 @@ extension PaygilantSDK.PaygilantScreenListener : UIKit.UIGestureRecognizerDelega
   case PASSWORD_CHANGE
   case NONE
   case VIEW_CARD_DETAILS
+  case SCREEN_DATA
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.CheckPointType]
   public typealias RawValue = Swift.Int
