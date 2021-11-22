@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ak5MT2uwvYaCdcqfjZCzPjEcxLY=
+		rM7bpbaoCaGp7fX2Dyd0Vy7urro=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NgOsnAA0x8ErnWvMBZ1IzR2WvaI=
+		waSHrtJu9snD5BV7f31Dzhh0KnE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		NgOsnAA0x8ErnWvMBZ1IzR2WvaI=
+		waSHrtJu9snD5BV7f31Dzhh0KnE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mQOXlA91iEhzx457PQht7DKRM/c=
+		3DHUZ03RJK7y8y1xAVAY0kQB988=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		mQOXlA91iEhzx457PQht7DKRM/c=
+		3DHUZ03RJK7y8y1xAVAY0kQB988=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			unIKH2e43V8FXC2GIAPQeZFnPKaP19/IV1c+ZlmEamE=
+			1WUon+SDMkXVOZyUauW3zF3iTJAKPQ4brcknhc18F0s=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64.swiftdoc</key>
@@ -124,7 +124,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			unIKH2e43V8FXC2GIAPQeZFnPKaP19/IV1c+ZlmEamE=
+			1WUon+SDMkXVOZyUauW3zF3iTJAKPQ4brcknhc18F0s=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ydrMQiod2eWSxt0aIUVEsrnfx4Newqpc6FlwY5DfbUQ=
+			tIulRYa0Ogx4r8IBRu+VT03FjrOeYhhyTt1X5YSOpH8=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ydrMQiod2eWSxt0aIUVEsrnfx4Newqpc6FlwY5DfbUQ=
+			tIulRYa0Ogx4r8IBRu+VT03FjrOeYhhyTt1X5YSOpH8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
