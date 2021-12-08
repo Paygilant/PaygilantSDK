@@ -9,6 +9,7 @@ import SystemConfiguration.CaptiveNetwork
 import CommonCrypto/*.CC_LONG*/
 import CommonCrypto/*.CC_MD5*/
 import CommonCrypto/*.CC_MD5_DIGEST_LENGTH*/
+import Compression
 import Contacts
 import CoreLocation
 import CoreMotion
@@ -116,6 +117,22 @@ public class BankAccountDetails {
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
   @objc override dynamic public init()
   @objc deinit
+}
+public struct Crc32 : Swift.CustomStringConvertible {
+  public init()
+  public var checksum: Swift.UInt32
+  public mutating func advance(withChunk chunk: Foundation.Data)
+  public var description: Swift.String {
+    get
+  }
+}
+public struct Adler32 : Swift.CustomStringConvertible {
+  public init()
+  public var checksum: Swift.UInt32
+  public mutating func advance(withChunk chunk: Foundation.Data)
+  public var description: Swift.String {
+    get
+  }
 }
 @objc public enum VerificationType : Swift.Int, Swift.CaseIterable {
   case VERIFIED
