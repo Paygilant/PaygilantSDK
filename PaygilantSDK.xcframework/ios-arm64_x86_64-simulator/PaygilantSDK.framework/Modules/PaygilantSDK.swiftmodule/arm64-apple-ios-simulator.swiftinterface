@@ -32,6 +32,7 @@ import _Concurrency
 }
 @objc @_hasMissingDesignatedInitializers @objcMembers public class CheckPoint : ObjectiveC.NSObject {
   @objc public func setAdditionalData(additionalData: [Swift.String : Any])
+  @objc public func setIsDeviceVerified(isDeviceVerified: PaygilantSDK.VerificationType)
   @objc required public init?(json: [Swift.String : Any])
   @objc public func getJson() -> [Swift.String : Any]
   @objc deinit
@@ -570,7 +571,7 @@ public class Address {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class User {
-  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = nil)
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = nil, registrationDate: Swift.Int64? = nil)
   public func getJson() -> [Swift.String : Any]
   public init(json: [Swift.String : Any])
   @objc deinit

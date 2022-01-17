@@ -209,6 +209,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 @class NSString;
+enum VerificationType : NSInteger;
 
 /// class that inherits for application checkpoints
 /// using to update Paygilant SDK with app flow state and for getting risk to current action
@@ -218,6 +219,7 @@ SWIFT_CLASS("_TtC12PaygilantSDK10CheckPoint")
 /// \param additionalData additionalData
 ///
 - (void)setAdditionalDataWithAdditionalData:(NSDictionary<NSString *, id> * _Nonnull)additionalData;
+- (void)setIsDeviceVerifiedWithIsDeviceVerified:(enum VerificationType)isDeviceVerified;
 - (nullable instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 /// Description
 ///
