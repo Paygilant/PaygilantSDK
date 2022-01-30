@@ -81,6 +81,13 @@ public enum PaygilantError : Swift.Error {
   public init(json: [Swift.String : Any])
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers public class ExternalCardTransaction : PaygilantSDK.CheckPoint {
+  public init(user: PaygilantSDK.User?, cardTransaction: PaygilantSDK.CardTransaction? = nil)
+  @objc public init(externalCardTransaction: PaygilantSDK.ExternalCardTransaction)
+  @objc override public func getJson() -> [Swift.String : Any]
+  @objc required public init(json: [Swift.String : Any])
+  @objc deinit
+}
 public class MerchantDetails {
   public init(merchantName: Swift.String? = nil, merchantCode: Swift.String? = nil, merchantAddress: PaygilantSDK.Address? = nil)
   public func getJson() -> [Swift.String : Any]
@@ -118,22 +125,6 @@ public class BankAccountDetails {
   @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
   @objc override dynamic public init()
   @objc deinit
-}
-public struct Crc32 : Swift.CustomStringConvertible {
-  public init()
-  public var checksum: Swift.UInt32
-  public mutating func advance(withChunk chunk: Foundation.Data)
-  public var description: Swift.String {
-    get
-  }
-}
-public struct Adler32 : Swift.CustomStringConvertible {
-  public init()
-  public var checksum: Swift.UInt32
-  public mutating func advance(withChunk chunk: Foundation.Data)
-  public var description: Swift.String {
-    get
-  }
 }
 @objc public enum VerificationType : Swift.Int, Swift.CaseIterable {
   case VERIFIED
@@ -533,6 +524,13 @@ public struct Adler32 : Swift.CustomStringConvertible {
   @objc required public init(json: [Swift.String : Any])
   @objc deinit
 }
+public class CardTransaction {
+  public init()
+  public init(cardId: Swift.String? = nil, currency: Swift.String? = nil, merchantCode: Swift.String?, merchantName: Swift.String? = nil, country: Swift.String? = nil, amount: Swift.Double? = nil, transactionType: PaygilantSDK.TransactionType? = nil)
+  public init(json: [Swift.String : Any])
+  public func getJson() -> [Swift.String : Any]
+  @objc deinit
+}
 public class Address {
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, addressLine1: Swift.String? = nil, addressLine2: Swift.String? = nil, city: Swift.String? = nil, state: Swift.String? = nil, country: Swift.String? = nil, postalCode: Swift.String? = nil, phoneNumber: Swift.String? = nil)
   public func getJson() -> [Swift.String : Any]
@@ -621,6 +619,7 @@ extension PaygilantSDK.PaygilantScreenListener : UIKit.UIGestureRecognizerDelega
   case NONE
   case VIEW_CARD_DETAILS
   case SCREEN_DATA
+  case EXTERNAL_CARD_TRANSACTION
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.CheckPointType]
   public typealias RawValue = Swift.Int

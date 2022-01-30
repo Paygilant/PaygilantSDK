@@ -293,6 +293,7 @@ typedef SWIFT_ENUM(NSInteger, CheckPointType, open) {
   CheckPointTypeNONE = 9,
   CheckPointTypeVIEW_CARD_DETAILS = 10,
   CheckPointTypeSCREEN_DATA = 11,
+  CheckPointTypeEXTERNAL_CARD_TRANSACTION = 12,
 };
 
 
@@ -505,6 +506,18 @@ SWIFT_CLASS("_TtC12PaygilantSDK20CurrencyCodeToString")
 + (NSString * _Nonnull)toStringWithType:(enum CurrencyCode)type SWIFT_WARN_UNUSED_RESULT;
 + (enum CurrencyCode)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// ExternalCardTransaction checkpoint, to be used during external card transaction
+SWIFT_CLASS("_TtC12PaygilantSDK23ExternalCardTransaction")
+@interface ExternalCardTransaction : CheckPoint
+- (nonnull instancetype)initWithExternalCardTransaction:(ExternalCardTransaction * _Nonnull)externalCardTransaction OBJC_DESIGNATED_INITIALIZER;
+- (NSDictionary<NSString *, id> * _Nonnull)getJson SWIFT_WARN_UNUSED_RESULT;
+/// init obj by json
+/// \param json json
+///
+- (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
