@@ -526,7 +526,7 @@ public class BankAccountDetails {
 }
 public class CardTransaction {
   public init()
-  public init(cardId: Swift.String? = nil, currency: Swift.String? = nil, merchantCode: Swift.String?, merchantName: Swift.String? = nil, country: Swift.String? = nil, amount: Swift.Double? = nil, transactionType: PaygilantSDK.TransactionType? = nil)
+  public init(cardId: Swift.String? = nil, curType: PaygilantSDK.CurrencyCode? = nil, merchantCode: Swift.String?, merchantName: Swift.String? = nil, country: Swift.String? = nil, amount: Swift.Double? = nil, transactionType: PaygilantSDK.TransactionType? = nil)
   public init(json: [Swift.String : Any])
   public func getJson() -> [Swift.String : Any]
   @objc deinit
