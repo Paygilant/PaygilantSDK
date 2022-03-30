@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-spec.version      = "2.2.25"
+spec.version      = "2.2.26"
 spec.summary      = "Fraud detection analyse."
 spec.description  = <<-DESC
  This Framework can detect fraud and realise how to prevent make transaction call
