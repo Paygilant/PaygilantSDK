@@ -908,6 +908,9 @@ typedef SWIFT_ENUM(NSInteger, TransactionType, open) {
   TransactionTypeSAVING_WITHDRAW = 16,
 /// bill payment transaction type
   TransactionTypeBILL_PAYMENT = 17,
+  TransactionTypeGOOGLE_PLAY = 18,
+  TransactionTypeAPPLE_PAY = 19,
+  TransactionTypeQR_PAYMENT = 20,
 };
 
 
@@ -1884,6 +1887,9 @@ typedef SWIFT_ENUM(NSInteger, TransactionType, open) {
   TransactionTypeSAVING_WITHDRAW = 16,
 /// bill payment transaction type
   TransactionTypeBILL_PAYMENT = 17,
+  TransactionTypeGOOGLE_PLAY = 18,
+  TransactionTypeAPPLE_PAY = 19,
+  TransactionTypeQR_PAYMENT = 20,
 };
 
 

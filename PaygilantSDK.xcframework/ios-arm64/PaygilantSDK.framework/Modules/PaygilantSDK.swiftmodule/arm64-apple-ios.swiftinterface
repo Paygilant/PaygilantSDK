@@ -390,6 +390,9 @@ extension PaygilantSDK.General {
   case SAVING_DEPOSIT
   case SAVING_WITHDRAW
   case BILL_PAYMENT
+  case GOOGLE_PLAY
+  case APPLE_PAY
+  case QR_PAYMENT
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -597,7 +600,7 @@ extension PaygilantSDK.PaygilantScreenListener : UIKit.UIGestureRecognizerDelega
   @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers public class Login : PaygilantSDK.CheckPoint {
-  public init(user: PaygilantSDK.User?)
+  public init(user: PaygilantSDK.User?, status: Swift.String? = nil, statusReason: Swift.String? = nil)
   @objc public init(login: PaygilantSDK.Login)
   @objc override public func getJson() -> [Swift.String : Any]
   @objc required public init(json: [Swift.String : Any])
