@@ -584,7 +584,7 @@ public class Address : Swift.Equatable {
 }
 @_hasMissingDesignatedInitializers public class User : Swift.Equatable {
   public static func == (lhs: PaygilantSDK.User, rhs: PaygilantSDK.User) -> Swift.Bool
-  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = .UNKNOWN, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = .UNKNOWN, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = .UNKNOWN, registrationDate: Swift.Int64? = nil)
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = .UNKNOWN, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = .UNKNOWN, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = .UNKNOWN, registrationDate: Swift.Int64? = nil, externalOnboardingScore: Swift.Int? = nil)
   public func getJson() -> [Swift.String : Any]
   public init(json: [Swift.String : Any])
   @objc deinit
