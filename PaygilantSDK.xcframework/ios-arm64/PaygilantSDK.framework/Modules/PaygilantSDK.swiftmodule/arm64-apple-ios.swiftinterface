@@ -510,6 +510,8 @@ extension PaygilantSDK.Launch {
   case WITHDRAW_SCREEN
   case DEPOSIT_SCREEN
   case NOTIFICATION
+  case CARD_SCREEN
+  case LOGIN
   public init?(rawValue: Swift.Int)
   public typealias AllCases = [PaygilantSDK.ScreenListenerType]
   public typealias RawValue = Swift.Int

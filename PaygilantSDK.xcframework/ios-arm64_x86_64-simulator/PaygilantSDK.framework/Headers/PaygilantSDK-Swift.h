@@ -861,6 +861,8 @@ typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
   ScreenListenerTypeWITHDRAW_SCREEN = 14,
   ScreenListenerTypeDEPOSIT_SCREEN = 15,
   ScreenListenerTypeNOTIFICATION = 16,
+  ScreenListenerTypeCARD_SCREEN = 17,
+  ScreenListenerTypeLOGIN = 18,
 };
 
 
@@ -1879,6 +1881,8 @@ typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
   ScreenListenerTypeWITHDRAW_SCREEN = 14,
   ScreenListenerTypeDEPOSIT_SCREEN = 15,
   ScreenListenerTypeNOTIFICATION = 16,
+  ScreenListenerTypeCARD_SCREEN = 17,
+  ScreenListenerTypeLOGIN = 18,
 };
 
 

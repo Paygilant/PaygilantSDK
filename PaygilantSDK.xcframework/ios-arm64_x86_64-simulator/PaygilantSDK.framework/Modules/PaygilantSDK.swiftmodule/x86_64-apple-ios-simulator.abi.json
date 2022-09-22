@@ -16662,6 +16662,88 @@
             "fixedbinaryorder": 16
           },
           {
+            "kind": "Var",
+            "name": "CARD_SCREEN",
+            "printedName": "CARD_SCREEN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PaygilantSDK.ScreenListenerType.Type) -> PaygilantSDK.ScreenListenerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenListenerType",
+                    "printedName": "PaygilantSDK.ScreenListenerType",
+                    "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PaygilantSDK.ScreenListenerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenListenerType",
+                        "printedName": "PaygilantSDK.ScreenListenerType",
+                        "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PaygilantSDK@E@ScreenListenerType@ScreenListenerTypeCARD_SCREEN",
+            "mangledName": "$s12PaygilantSDK18ScreenListenerTypeO11CARD_SCREENyA2CmF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "LOGIN",
+            "printedName": "LOGIN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PaygilantSDK.ScreenListenerType.Type) -> PaygilantSDK.ScreenListenerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenListenerType",
+                    "printedName": "PaygilantSDK.ScreenListenerType",
+                    "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PaygilantSDK.ScreenListenerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScreenListenerType",
+                        "printedName": "PaygilantSDK.ScreenListenerType",
+                        "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@PaygilantSDK@E@ScreenListenerType@ScreenListenerTypeLOGIN",
+            "mangledName": "$s12PaygilantSDK18ScreenListenerTypeO5LOGINyA2CmF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -25891,6 +25973,20 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
       "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 11,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
       "offset": 230,
       "length": 10,
       "value": "1"
@@ -25999,6 +26095,20 @@
       "offset": 570,
       "length": 12,
       "value": "16"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 592,
+      "length": 11,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 5,
+      "value": "18"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/Checkpoint\/UpdateUserInfo.swift",
