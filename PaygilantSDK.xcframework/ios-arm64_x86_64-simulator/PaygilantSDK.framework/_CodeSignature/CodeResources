@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		b2tv8x+LUfI9swzRvR05lsUlkuY=
+		zuxQcZOV9pID3lhStSir8oGbp7Q=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YUi7N+qUhahus1guPYnEQP7Ekds=
+		v03Rj0OP3zYC7lDNp+unz/l1MEA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ptwhkOmP8f1QnzpdO5wdhKk73Zo=
+		CwKgQ/VyIvJ/9XnHbxqm11RZFxc=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YUi7N+qUhahus1guPYnEQP7Ekds=
+		v03Rj0OP3zYC7lDNp+unz/l1MEA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		q23ZQjIb00qCMjyM/T5BZaURAPs=
+		OMC0JEg6o2nRoBifQjlYwznYwf4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Mjcy/1mrgqefiCF/R5mzPSZvyAR+wk2yO9pKQPLbHE=
+			3sbehKLCyw/i9h8HrzIfrrV7BDhnoHxD9uL08Y8kWDc=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fLBmpaNhwBmxXkT+PRWTxt2j36MCdeViSdiCqoBpEKc=
+			wraCL51KeqLuPJNFHUfgBEaaSlySX5i+j8iJquum6cQ=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Mjcy/1mrgqefiCF/R5mzPSZvyAR+wk2yO9pKQPLbHE=
+			3sbehKLCyw/i9h8HrzIfrrV7BDhnoHxD9uL08Y8kWDc=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LX267b4+uQRqHnyvC4JehTMaCWRPv+CYX38GM5LfF8A=
+			vF0vwxQtF74M6OjnWYyVrHHhcnvA5z3665MfKKHXYLU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
