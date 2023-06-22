@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 effective-4.2 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.8.1 effective-4.2 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -module-name PaygilantSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -45,6 +45,9 @@ import _StringProcessing
   @objc override public func getJson() -> [Swift.String : Any]
   @objc required public init(json: [Swift.String : Any])
   @objc deinit
+}
+extension PaygilantSDK.ScreenData {
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers public class Register : PaygilantSDK.CheckPoint {
   public init(user: PaygilantSDK.User?)
@@ -588,7 +591,7 @@ public class Address : Swift.Equatable {
 }
 @_hasMissingDesignatedInitializers public class User : Swift.Equatable {
   public static func == (lhs: PaygilantSDK.User, rhs: PaygilantSDK.User) -> Swift.Bool
-  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = .UNKNOWN, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = .UNKNOWN, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = .UNKNOWN, registrationDate: Swift.Int64? = nil, externalOnboardingScore: Swift.Int? = nil)
+  public init(userId: Swift.String? = nil, email: Swift.String? = nil, isEmailVerified: PaygilantSDK.VerificationType? = nil, phoneUser: Swift.String? = nil, isPhoneVerified: PaygilantSDK.VerificationType? = nil, address: PaygilantSDK.Address? = nil, isKycVerified: PaygilantSDK.VerificationType? = nil, registrationDate: Swift.Int64? = nil, externalOnboardingScore: Swift.Int? = nil)
   public func getJson() -> [Swift.String : Any]
   public init(json: [Swift.String : Any])
   @objc deinit
