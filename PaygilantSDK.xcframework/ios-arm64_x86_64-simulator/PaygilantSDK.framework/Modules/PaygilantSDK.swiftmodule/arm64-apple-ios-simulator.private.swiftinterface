@@ -41,7 +41,6 @@ import _StringProcessing
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class ScreenData : PaygilantSDK.CheckPoint {
-  public init(user: PaygilantSDK.User? = nil)
   @objc override public func getJson() -> [Swift.String : Any]
   @objc required public init(json: [Swift.String : Any])
   @objc deinit
