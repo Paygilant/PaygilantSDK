@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+H6CPMcD32/azp8SMII3+qusOQo=
+		ZHO/b61dke6kD8u+fOcgPw5oyeg=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GZGe/BPnojQ1lf24c0lScnnCdJQ=
+		gJ2aEQRE2Syl9M7H5bMO9bE1tNw=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8ApSq/e1yryFzThl7gPQF62FKiY=
+		hEjqNZlivaYwwmQ738YW4BYmM9M=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GZGe/BPnojQ1lf24c0lScnnCdJQ=
+		gJ2aEQRE2Syl9M7H5bMO9bE1tNw=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o8dC4xXYDmPPT4P8QQFCYDyQvfM=
+		PlUx3DzhP5sRPX+kuBGQVpHTlAw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6TrSPWh21PyXbzNodGRhipT0qw80T4K/L6MR7chQJI0=
+			1mVxH2cD20AhfDuNoHFVXIvjP5zq24Ms5snAXScOv6Y=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			et/Wb/vYdbFUFPq1RsFJ0uuKdPZgLxfVLTdyQSX5DdY=
+			pv9fJAAq31KbN3v7u3rctNQWbkuyU2l8OUnfbiZeeqU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6TrSPWh21PyXbzNodGRhipT0qw80T4K/L6MR7chQJI0=
+			1mVxH2cD20AhfDuNoHFVXIvjP5zq24Ms5snAXScOv6Y=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f2z/OydokpwftaRZnl7wZxTKyXgvdWRwvYT9RtYGTSI=
+			JZ3y01S9+Iaf09L22YyK5ZhbwhghdoGzDNR+s/HPX1g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
