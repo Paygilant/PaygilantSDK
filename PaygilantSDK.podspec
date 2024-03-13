@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-spec.version      = "2.3.2"
+spec.version      = "2.3.3.beta1"
 spec.summary      = "Fraud detection analyse."
 spec.description  = <<-DESC
  This Framework can detect fraud and realise how to prevent make transaction call
@@ -15,5 +15,5 @@ spec.license      = "MIT"
 spec.source       = { :git => "https://github.com/Paygilant/PaygilantSDK.git",  :tag => "#{spec.version}"
 }
 spec.vendored_frameworks = 'PaygilantSDK.xcframework'
-
+spec.frameworks = 'Contacts','EventKitUI','StoreKit','EventKitUI','Photos','AppTrackingTransparency','AdSupport','Foundation','UIKit','AVKit','Vision','Security','CoreLocation','CoreMotion','AVFoundation'
 end
