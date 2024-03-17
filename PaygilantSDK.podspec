@@ -15,5 +15,5 @@ spec.license      = "MIT"
 spec.source       = { :git => "https://github.com/Paygilant/PaygilantSDK.git",  :tag => "#{spec.version}"
 }
 spec.vendored_frameworks = 'PaygilantSDK.xcframework'
-spec.frameworks = 'Contacts','EventKitUI','StoreKit','EventKitUI','Photos','AppTrackingTransparency','AdSupport','Foundation','UIKit','AVKit','Vision','Security','CoreLocation','CoreMotion','AVFoundation'
+
 end
