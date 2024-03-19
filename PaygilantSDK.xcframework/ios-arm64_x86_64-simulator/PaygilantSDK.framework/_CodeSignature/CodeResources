@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PaygilantSDK-Swift.h</key>
 		<data>
-		Y7v9uitWgovnn8DG3+ONRACAS3s=
+		8oLFIs+K+lOqFIUzgp+2P2QzfjU=
 		</data>
 		<key>Headers/PaygilantSDK.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZHO/b61dke6kD8u+fOcgPw5oyeg=
+		Eolhx0bMhVl26S+HbjIHz9Yi0zo=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gJ2aEQRE2Syl9M7H5bMO9bE1tNw=
+		f+hnGYj5f/Miop/rijvSoR5UCgM=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		k/ktRS005LGhhJ7jP2RzoC5KL8A=
+		cpBpeab68fIBWdT9bvAt1Loyqoc=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ydq2jjemu2cksyQvB2VAGzJfmY8=
+		by2ylFB1OgoEGb1wxEMSvMItTAc=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		k/ktRS005LGhhJ7jP2RzoC5KL8A=
+		cpBpeab68fIBWdT9bvAt1Loyqoc=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hEjqNZlivaYwwmQ738YW4BYmM9M=
+		SfjT3cPvq4Rl2w1jHDHomgczWFI=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gJ2aEQRE2Syl9M7H5bMO9bE1tNw=
+		f+hnGYj5f/Miop/rijvSoR5UCgM=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KTzUVNKzPRRJEJuLt/VIpdvrM6o=
+		H06PB0wp3Ts6BO+2NGcxMAGILUE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IpVLZr3zMeW6NPt1aJ4d9Mz1fEw=
+		WuxWFFG3Wxa0iH4JKxSfmBID858=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KTzUVNKzPRRJEJuLt/VIpdvrM6o=
+		H06PB0wp3Ts6BO+2NGcxMAGILUE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PlUx3DzhP5sRPX+kuBGQVpHTlAw=
+		JFJJqB0sx4q8td5UPTDmbiQodFM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U19ncz/jQ+imc0qUp/qe3CuivqS4PrzNNi55dlZaK7A=
+			yMSOAIrETjw2Chz0FIgXiF9W0jBtccWWBxLhnAlahVU=
 			</data>
 		</dict>
 		<key>Headers/PaygilantSDK.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mVxH2cD20AhfDuNoHFVXIvjP5zq24Ms5snAXScOv6Y=
+			f/MbRJGOqTfJfFVRao2TvHKy8q6IT1qFt2Cqeh+uX/s=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uzari0wkPSEiyUVdbncs6qMffZaaEYUau2w42h1OSUE=
+			qi3C3ZdfwRU9gKNa/81vJhN+v85XQvvlib+b17E0rHU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r4fXWAbdjGiy++IBN65pRaFEs/xv+16uDNnkmvPfMH0=
+			suBkKZqwXhhGeOWlK4da788aBjemjGqnM7yfMxu6bMI=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uzari0wkPSEiyUVdbncs6qMffZaaEYUau2w42h1OSUE=
+			qi3C3ZdfwRU9gKNa/81vJhN+v85XQvvlib+b17E0rHU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pv9fJAAq31KbN3v7u3rctNQWbkuyU2l8OUnfbiZeeqU=
+			xc4HlaQIZhzCqSeg24HkYA2aL2576Azm6/2RavbaX/U=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1mVxH2cD20AhfDuNoHFVXIvjP5zq24Ms5snAXScOv6Y=
+			f/MbRJGOqTfJfFVRao2TvHKy8q6IT1qFt2Cqeh+uX/s=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LCweLPsFn2QVqxIvQGkw42E/Ywx9XwnBRLyQhcDghKE=
+			yxUwsqCWOMHS75vwwFLpV8xfr0dq0+70RZtwNncL6W4=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lgjm2As87igm+r1CzgJZqEToYXq9IpyCA+xqOtjQul0=
+			OxHKD9XEyLykxfvQF0+87o2VIsV0lHyEUiYhueYwrUw=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LCweLPsFn2QVqxIvQGkw42E/Ywx9XwnBRLyQhcDghKE=
+			yxUwsqCWOMHS75vwwFLpV8xfr0dq0+70RZtwNncL6W4=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZ3y01S9+Iaf09L22YyK5ZhbwhghdoGzDNR+s/HPX1g=
+			hPmXZS6w8egScSnBkwlOLEKYOMYJTmsEOV9gpBvkHII=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
