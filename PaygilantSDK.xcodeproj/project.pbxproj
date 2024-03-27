@@ -16,7 +16,6 @@
 		8169951125BD5E2500E53AF3 /* PaygilantSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8169951025BD5E2500E53AF3 /* PaygilantSDK.podspec */; };
 		ECD8464C2BA9C8D40084F264 /* PaygilantSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8464A2BA9C8A40084F264 /* PaygilantSDK.xcframework */; };
 		ECD8464D2BA9C8D40084F264 /* PaygilantSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ECD8464A2BA9C8A40084F264 /* PaygilantSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ECFDAF1E2BAB0FF000F9DA40 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = ECFDAF1D2BAB0FF000F9DA40 /* PrivacyInfo.xcprivacy */; };
 		ECFDAF242BAC155E00F9DA40 /* README.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFDAF232BAC155E00F9DA40 /* README.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		816994CE25B9B60500E53AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8169951025BD5E2500E53AF3 /* PaygilantSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PaygilantSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECD8464A2BA9C8A40084F264 /* PaygilantSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PaygilantSDK.xcframework; sourceTree = "<group>"; };
-		ECFDAF1D2BAB0FF000F9DA40 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ECFDAF232BAC155E00F9DA40 /* README.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				ECFDAF232BAC155E00F9DA40 /* README.swift */,
-				ECFDAF1D2BAB0FF000F9DA40 /* PrivacyInfo.xcprivacy */,
 				ECD8464A2BA9C8A40084F264 /* PaygilantSDK.xcframework */,
 				8169951025BD5E2500E53AF3 /* PaygilantSDK.podspec */,
 				816994BF25B9B60100E53AF3 /* TestPG */,
@@ -167,7 +164,6 @@
 				816994CD25B9B60500E53AF3 /* LaunchScreen.storyboard in Resources */,
 				816994CA25B9B60500E53AF3 /* Assets.xcassets in Resources */,
 				816994C825B9B60100E53AF3 /* Main.storyboard in Resources */,
-				ECFDAF1E2BAB0FF000F9DA40 /* PrivacyInfo.xcprivacy in Resources */,
 				8169951125BD5E2500E53AF3 /* PaygilantSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
