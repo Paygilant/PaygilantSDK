@@ -17,7 +17,7 @@
                BlueprintIdentifier = "8169931725B6D44A00E53AF3"
                BuildableName = "PaygilantLib.app"
                BlueprintName = "PaygilantLib"
-               ReferencedContainer = "container:PaygilantSDK.xcodeproj">
+               ReferencedContainer = "container:PaygilantIOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "8169931725B6D44A00E53AF3"
             BuildableName = "PaygilantLib.app"
             BlueprintName = "PaygilantLib"
-            ReferencedContainer = "container:PaygilantSDK.xcodeproj">
+            ReferencedContainer = "container:PaygilantIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "8169931725B6D44A00E53AF3"
             BuildableName = "PaygilantLib.app"
             BlueprintName = "PaygilantLib"
-            ReferencedContainer = "container:PaygilantSDK.xcodeproj">
+            ReferencedContainer = "container:PaygilantIOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8169931325B6D44A00E53AF3 /* Build configuration list for PBXProject "PaygilantSDK" */;
+			buildConfigurationList = 8169931325B6D44A00E53AF3 /* Build configuration list for PBXProject "PaygilantIOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -373,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8169931325B6D44A00E53AF3 /* Build configuration list for PBXProject "PaygilantSDK" */ = {
+		8169931325B6D44A00E53AF3 /* Build configuration list for PBXProject "PaygilantIOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8169932A25B6D44D00E53AF3 /* Debug */,
