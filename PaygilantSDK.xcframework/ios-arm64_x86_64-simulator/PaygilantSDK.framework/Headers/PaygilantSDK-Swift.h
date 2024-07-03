@@ -279,7 +279,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -699,7 +698,6 @@ SWIFT_CLASS("_TtC12PaygilantSDK14PasswordChange")
 - (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class Risk;
 enum ScreenListenerType : NSInteger;
 @class UIView;
 @class PaygilantScreenListener;
@@ -732,31 +730,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// When the user receives the “user id”, the app needs to update the SDK with this information.
 /// \param userId user Id, default: “UNKNOWN”
 ///
-- (void)setUserIdWithUserId:(NSString * _Nullable)userId;
+- (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Once the logout event occurs in the application, this function should be called.
-- (void)logout;
-/// Called when arriving at a specific predefined checkpoint and the application needs to get Paygilant’s Risk Score.
-/// \param checkPoint CheckPoint is an entity that contains any relevant data for current check point.
-/// Note: Checkpoint is a base class and should not be used directly. i.e. use only inherited classes
-///
-/// \param completion (risk, signRisk, requestId) - Interface object that needs to be implemented when calling getRiskForCheckPoint method, and to be used as a callback function (completion handler) to get the risk response from Paygilant.
-///
-- (void)getRiskForCheckPointWithCheckPoint:(CheckPoint * _Nonnull)checkPoint completion:(void (^ _Nonnull)(Risk * _Nonnull, NSString * _Nonnull, NSString * _Nonnull))completion;
-/// Called when arriving at predefined checkpoints, done to track the customer journey in the application and collect data required for Risk Score’s calculation later in the process.
-/// \param checkPoint Checkpoint is an interface that contains any relevant data for current check point. There different types of checkpoints, as detailed above.
-///
-- (void)arriveToCheckPointWithCheckPoint:(CheckPoint * _Nonnull)checkPoint;
-/// Calling this endpoint updates the SDK about the final business decision taken by the application.
-/// Call it after calling getRiskForCheckPoint.
-/// \param type CheckPointType - Checkpoint type (e.g. Transaction, Login etc.)
-///
-/// \param requestID Request ID of the request that is being updated (output of getRiskForCheckPoint)
-///
-/// \param status Status – approved/denied/cancelled by the user
-///
-/// \param transactionID Transaction ID given by the customer’s app server when relevant (e.g. Transaction). If it does not exist, no need to send it.
-///
-- (void)updateCheckPointStatusWithType:(enum CheckPointType)type requestID:(NSString * _Nonnull)requestID status:(enum CheckPointStatus)status transactionID:(NSString * _Nullable)transactionID;
+- (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Called when we want to start listening for events that occurred during application lifetime.
 /// Call startNewScreenListener inside viewWillAppear() Controller method for listening to all events occurring during the Controller lifetime.
 /// This is the only way that the application should initialize PaygilantScreenListener object.
@@ -769,13 +745,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// returns:
 /// Object that is used to manage tracking.
-- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
-- (void)initializeDeviceId;
+- (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///
-- (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission;
+- (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission SWIFT_DEPRECATED_MSG("no longer available ...");
 @end
 
 
@@ -794,21 +770,11 @@ SWIFT_CLASS("_TtC12PaygilantSDK23PaygilantScreenListener")
 /// \param view self.view
 ///
 - (nonnull instancetype)initWithType:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// To be used when it’s needed to listen motion sensors.
-/// When listening to entire screen,
-/// function needs to be called from inside the viewWillAppear() ViewConroller method
-- (void)resumeListen SWIFT_DEPRECATED_MSG("no longer available, use startScreenListener in viewWillAppear...");
 /// Called when completing screen tracking and when stopping to listen to motion sensors, e.g. moving to next screen, pushing on login button etc.
 /// It must be called from the viewWillDisappear() controller method.
 - (void)finishScreenListener;
-@end
-
-@class UIGestureRecognizer;
-
-@interface PaygilantScreenListener (SWIFT_EXTENSION(PaygilantSDK)) <UIGestureRecognizerDelegate>
-- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, PaymentMethodType, open) {
@@ -918,17 +884,17 @@ typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
 };
 
 
-SWIFT_CLASS("_TtC12PaygilantSDK28ScreenListenerTypeEnumerator")
+SWIFT_CLASS("_TtC12PaygilantSDK28ScreenListenerTypeEnumerator") SWIFT_DEPRECATED_MSG("no longer available ...")
 @interface ScreenListenerTypeEnumerator : NSObject
-+ (NSDictionary<NSString *, NSNumber *> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
++ (NSDictionary<NSString *, NSNumber *> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC12PaygilantSDK26ScreenListenerTypeToString")
+SWIFT_CLASS("_TtC12PaygilantSDK26ScreenListenerTypeToString") SWIFT_DEPRECATED_MSG("no longer available ...")
 @interface ScreenListenerTypeToString : NSObject
 + (NSString * _Nonnull)toStringWithType:(enum ScreenListenerType)type SWIFT_WARN_UNUSED_RESULT;
-+ (enum ScreenListenerType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
++ (enum ScreenListenerType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1351,7 +1317,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -1771,7 +1736,6 @@ SWIFT_CLASS("_TtC12PaygilantSDK14PasswordChange")
 - (nonnull instancetype)initWithJson:(NSDictionary<NSString *, id> * _Nonnull)json OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class Risk;
 enum ScreenListenerType : NSInteger;
 @class UIView;
 @class PaygilantScreenListener;
@@ -1804,31 +1768,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// When the user receives the “user id”, the app needs to update the SDK with this information.
 /// \param userId user Id, default: “UNKNOWN”
 ///
-- (void)setUserIdWithUserId:(NSString * _Nullable)userId;
+- (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Once the logout event occurs in the application, this function should be called.
-- (void)logout;
-/// Called when arriving at a specific predefined checkpoint and the application needs to get Paygilant’s Risk Score.
-/// \param checkPoint CheckPoint is an entity that contains any relevant data for current check point.
-/// Note: Checkpoint is a base class and should not be used directly. i.e. use only inherited classes
-///
-/// \param completion (risk, signRisk, requestId) - Interface object that needs to be implemented when calling getRiskForCheckPoint method, and to be used as a callback function (completion handler) to get the risk response from Paygilant.
-///
-- (void)getRiskForCheckPointWithCheckPoint:(CheckPoint * _Nonnull)checkPoint completion:(void (^ _Nonnull)(Risk * _Nonnull, NSString * _Nonnull, NSString * _Nonnull))completion;
-/// Called when arriving at predefined checkpoints, done to track the customer journey in the application and collect data required for Risk Score’s calculation later in the process.
-/// \param checkPoint Checkpoint is an interface that contains any relevant data for current check point. There different types of checkpoints, as detailed above.
-///
-- (void)arriveToCheckPointWithCheckPoint:(CheckPoint * _Nonnull)checkPoint;
-/// Calling this endpoint updates the SDK about the final business decision taken by the application.
-/// Call it after calling getRiskForCheckPoint.
-/// \param type CheckPointType - Checkpoint type (e.g. Transaction, Login etc.)
-///
-/// \param requestID Request ID of the request that is being updated (output of getRiskForCheckPoint)
-///
-/// \param status Status – approved/denied/cancelled by the user
-///
-/// \param transactionID Transaction ID given by the customer’s app server when relevant (e.g. Transaction). If it does not exist, no need to send it.
-///
-- (void)updateCheckPointStatusWithType:(enum CheckPointType)type requestID:(NSString * _Nonnull)requestID status:(enum CheckPointStatus)status transactionID:(NSString * _Nullable)transactionID;
+- (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Called when we want to start listening for events that occurred during application lifetime.
 /// Call startNewScreenListener inside viewWillAppear() Controller method for listening to all events occurring during the Controller lifetime.
 /// This is the only way that the application should initialize PaygilantScreenListener object.
@@ -1841,13 +1783,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// returns:
 /// Object that is used to manage tracking.
-- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT;
+- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
-- (void)initializeDeviceId;
+- (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///
-- (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission;
+- (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission SWIFT_DEPRECATED_MSG("no longer available ...");
 @end
 
 
@@ -1866,21 +1808,11 @@ SWIFT_CLASS("_TtC12PaygilantSDK23PaygilantScreenListener")
 /// \param view self.view
 ///
 - (nonnull instancetype)initWithType:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// To be used when it’s needed to listen motion sensors.
-/// When listening to entire screen,
-/// function needs to be called from inside the viewWillAppear() ViewConroller method
-- (void)resumeListen SWIFT_DEPRECATED_MSG("no longer available, use startScreenListener in viewWillAppear...");
 /// Called when completing screen tracking and when stopping to listen to motion sensors, e.g. moving to next screen, pushing on login button etc.
 /// It must be called from the viewWillDisappear() controller method.
 - (void)finishScreenListener;
-@end
-
-@class UIGestureRecognizer;
-
-@interface PaygilantScreenListener (SWIFT_EXTENSION(PaygilantSDK)) <UIGestureRecognizerDelegate>
-- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, PaymentMethodType, open) {
@@ -1990,17 +1922,17 @@ typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
 };
 
 
-SWIFT_CLASS("_TtC12PaygilantSDK28ScreenListenerTypeEnumerator")
+SWIFT_CLASS("_TtC12PaygilantSDK28ScreenListenerTypeEnumerator") SWIFT_DEPRECATED_MSG("no longer available ...")
 @interface ScreenListenerTypeEnumerator : NSObject
-+ (NSDictionary<NSString *, NSNumber *> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT;
++ (NSDictionary<NSString *, NSNumber *> * _Nonnull)dictionary SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS("_TtC12PaygilantSDK26ScreenListenerTypeToString")
+SWIFT_CLASS("_TtC12PaygilantSDK26ScreenListenerTypeToString") SWIFT_DEPRECATED_MSG("no longer available ...")
 @interface ScreenListenerTypeToString : NSObject
 + (NSString * _Nonnull)toStringWithType:(enum ScreenListenerType)type SWIFT_WARN_UNUSED_RESULT;
-+ (enum ScreenListenerType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT;
++ (enum ScreenListenerType)fromStringWithString:(NSString * _Nonnull)string SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
