@@ -1486,26 +1486,19 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
+                "name": "Bool",
+                "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PaygilantSDK0A7ManagerC16setApprovePolicyyySbSgF",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC16setApprovePolicyyySbSgF",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setApprovePolicy:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC16setApprovePolicyyySbF",
             "moduleName": "PaygilantSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -22168,7 +22161,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6470,
+      "offset": 6471,
       "length": 4,
       "value": "true"
     },

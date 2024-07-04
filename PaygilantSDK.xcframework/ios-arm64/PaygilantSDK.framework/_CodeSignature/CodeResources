@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PaygilantSDK-Swift.h</key>
 		<data>
-		0RpUqKSf2S9uKjAt0QJwKx5JIUM=
+		KMWJPYvoIRi/KWzbOudgcdXIuJ8=
 		</data>
 		<key>Headers/PaygilantSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iFJVHtwm5oxW6DBCp5qCcZyG2GU=
+		mNycPYLtwqYejOC4z53fgYtdnUc=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		PY1vtXi85JD72zhFXFsk8p2dvuU=
+		2DNBklLraE9GUZJXQC3r77XiGUA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PY1vtXi85JD72zhFXFsk8p2dvuU=
+		2DNBklLraE9GUZJXQC3r77XiGUA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2juYOuYb7NsGt2qIpcyGh9nb72M=
+		/wr4hDBXJA7nvkgewJj61sbIYPM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5/lf/UOfaqTVDQ8z4jHpd/sE5nb5fgOdz4Lx/mgEGdQ=
+			auC4wrgq1BtWwn1BjSiGorxoplrF/7cLWCROiFouEXU=
 			</data>
 		</dict>
 		<key>Headers/PaygilantSDK.h</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJdLMHd8pVM2uQMgoCF201WsLZvDJ2sNkq0P5EKKW8c=
+			H6xkX89lpQ2A/n18QdvJ0Cbdyt5506o2DNZpOB5Twuo=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy7EJ7LoZWPvdYJT1tu79xwgjl1wk0jbqGSM1DHsRMg=
+			7DlSfXL2/FgeiBPEF62FZEWn5iRQ19FLQcdDWw0+GHg=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy7EJ7LoZWPvdYJT1tu79xwgjl1wk0jbqGSM1DHsRMg=
+			7DlSfXL2/FgeiBPEF62FZEWn5iRQ19FLQcdDWw0+GHg=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Sz1bpjUjXrP76ZyWvZ8mn4Od93fvC7qOz6HJ4fqNaw=
+			B377XqnciWhVfgEWBQ2gxyE7vbZ23tWyZVJze2zZD48=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

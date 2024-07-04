@@ -731,6 +731,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// \param userId user Id, default: “UNKNOWN”
 ///
 - (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
+- (void)setApprovePolicy:(BOOL)approvePolicy;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Called when we want to start listening for events that occurred during application lifetime.
@@ -1769,6 +1770,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// \param userId user Id, default: “UNKNOWN”
 ///
 - (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
+- (void)setApprovePolicy:(BOOL)approvePolicy;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Called when we want to start listening for events that occurred during application lifetime.
