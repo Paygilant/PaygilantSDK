@@ -3632,146 +3632,6 @@
       "value": "\"FlagsChanged\""
     },
     {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 12,
-      "value": "\"actionType\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 322,
-      "length": 10,
-      "value": "\"actionId\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 17,
-      "value": "\"eventListHeader\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 434,
-      "length": 19,
-      "value": "\"eventListTSHeader\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 490,
-      "length": 14,
-      "value": "\"sensorHeader\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 16,
-      "value": "\"sensorTSHeader\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 594,
-      "length": 11,
-      "value": "\"eventList\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 641,
-      "length": 13,
-      "value": "\"sensorsData\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 688,
-      "length": 11,
-      "value": "\"sensorsTS\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 13,
-      "value": "\"eventListTS\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "StringLiteral",
-      "offset": 790,
-      "length": 18,
-      "value": "\"orientationAngle\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "Array",
-      "offset": 857,
-      "length": 19,
-      "value": "[\"nano_time_event\"]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "Array",
-      "offset": 922,
-      "length": 42,
-      "value": "[\"x\", \"y\", \"size\", \"pressure\", \"event_id\"]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "Array",
-      "offset": 1006,
-      "length": 105,
-      "value": "[\"lin_acc_x\", \"lin_acc_y\", \"lin_acc_z\", \"gyr_unc_x\", \"gyr_unc_y\", \"gyr_unc_z\", \"gra_x\", \"gra_y\", \"gra_z\"]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "Array",
-      "offset": 1156,
-      "length": 20,
-      "value": "[\"nano_time_sensor\"]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/BioSensorEventData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1487,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 301,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 342,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 447,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
       "offset": 201,
@@ -4034,83 +3894,83 @@
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 338,
-      "length": 1,
-      "value": "5"
+      "length": 4,
+      "value": "5000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 2,
-      "value": "30"
+      "offset": 382,
+      "length": 5,
+      "value": "30000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 421,
+      "offset": 427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 460,
+      "offset": 466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 565,
+      "offset": 571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "Array",
-      "offset": 626,
+      "offset": 632,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "Array",
-      "offset": 679,
+      "offset": 685,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "Array",
-      "offset": 721,
+      "offset": 727,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 761,
+      "offset": 767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 804,
+      "offset": 810,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 850,
+      "offset": 856,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 901,
+      "offset": 907,
       "length": 1,
       "value": "2"
     },
@@ -4255,6 +4115,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15795,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/NetworkCallMaker.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
@@ -4267,13 +4134,6 @@
       "offset": 514,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/NetworkCallMaker.swift",
-      "kind": "BooleanLiteral",
-      "offset": 628,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/KeychainHelper.swift",
@@ -4815,6 +4675,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1167,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1679,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/MobilePermission.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
@@ -5135,69 +5009,6 @@
       "offset": 679,
       "length": 23,
       "value": "\"PaygilantSDK.PaygilantScreenListener\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 404,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 450,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "FloatLiteral",
-      "offset": 481,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "FloatLiteral",
-      "offset": 517,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "FloatLiteral",
-      "offset": 547,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "FloatLiteral",
-      "offset": 577,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/PaygilantViewTouchEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 656,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/LoggingData\/LoggingData.swift",
