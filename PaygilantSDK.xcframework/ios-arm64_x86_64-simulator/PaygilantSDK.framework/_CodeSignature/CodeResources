@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PVl7vuw0abkbNnAoOrNclmZp2kA=
+		FpAfLA5M3u495E9E8SlaucFCHUY=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		edoLlK+B+R9z628GxbGlxRU4HiY=
+		mE9IWx9WNzw+WKnUXXIl5up+4/g=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		edoLlK+B+R9z628GxbGlxRU4HiY=
+		mE9IWx9WNzw+WKnUXXIl5up+4/g=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PoseRL4DdYMeq8h9Ht/xBlaCaJ4XDrWXnSa2k1RzQUU=
+			2hSJH7BdxeS4gTfAeWT2iNQXx0xXMKtB/uK43sTkgCU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PoseRL4DdYMeq8h9Ht/xBlaCaJ4XDrWXnSa2k1RzQUU=
+			2hSJH7BdxeS4gTfAeWT2iNQXx0xXMKtB/uK43sTkgCU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
