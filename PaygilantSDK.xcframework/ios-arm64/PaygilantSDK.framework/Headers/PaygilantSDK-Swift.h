@@ -369,6 +369,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// \param approvePolicy approvePolicy ,default: true
 ///
 - (void)setApprovePolicy:(BOOL)approvePolicy;
+- (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Called when we want to start listening for events that occurred during application lifetime.

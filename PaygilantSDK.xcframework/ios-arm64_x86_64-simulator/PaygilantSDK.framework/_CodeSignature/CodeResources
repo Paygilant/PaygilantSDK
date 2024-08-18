@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PaygilantSDK-Swift.h</key>
 		<data>
-		ahP62oRTfRwnNN1XpX6HZh8NxrI=
+		YF+71+fwipAa9JXWl4cHYr+RFXM=
 		</data>
 		<key>Headers/PaygilantSDK.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mE9IWx9WNzw+WKnUXXIl5up+4/g=
+		s1tWgpcUnfD2IUayuPLwOlQ9kEA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hy2GGwFsMvD31KkvGRz48kpt9k0=
+		bTWEYGg3jQalrEE7MxEpr46qAMw=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hy2GGwFsMvD31KkvGRz48kpt9k0=
+		bTWEYGg3jQalrEE7MxEpr46qAMw=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YtTKOhoFMJ2btTrkkqGfKxka0Go=
+		0kXNY0fACrxO16aXOc96qtVcVe8=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mE9IWx9WNzw+WKnUXXIl5up+4/g=
+		s1tWgpcUnfD2IUayuPLwOlQ9kEA=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		W3MwstM/Y/0iEzMP7qpXWHRY++k=
+		OC1Hwppx7a8KMaG8TwNupx1O/QE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		W3MwstM/Y/0iEzMP7qpXWHRY++k=
+		OC1Hwppx7a8KMaG8TwNupx1O/QE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2+J5VW62YkjCA7763Gj4Vhp8hLI=
+		SuAeP5Ytfa6McQ1J0AoHf9R0ong=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOaW4Qh1UBkmFIepeKW3S0wul6E+9vFDRxHTrxY6oCM=
+			pl1pXEwY+FpwRrlXLMkYjDxOfl/KsVigPsSAy+H+Cac=
 			</data>
 		</dict>
 		<key>Headers/PaygilantSDK.h</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2hSJH7BdxeS4gTfAeWT2iNQXx0xXMKtB/uK43sTkgCU=
+			0alnqRmSgzcEp/roLVCwTtyE0hvI9sSA5wH7x12B5z0=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			012oreN27K+FPcgeDIOWBUvYe2NJ4OGqeUsvQs9ZnB8=
+			W8fwvLtF6aiMCDX+7UgEeQnOJx11a7cboGLilWj+WDU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			012oreN27K+FPcgeDIOWBUvYe2NJ4OGqeUsvQs9ZnB8=
+			W8fwvLtF6aiMCDX+7UgEeQnOJx11a7cboGLilWj+WDU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8xihTRKm2nYI5N587vZRRgrstYhc9K+R9YFBAiVua04=
+			2xUuqONMC1q7ew5KqYyavXwtXvfrCn6LYRGfqlkhHLM=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2hSJH7BdxeS4gTfAeWT2iNQXx0xXMKtB/uK43sTkgCU=
+			0alnqRmSgzcEp/roLVCwTtyE0hvI9sSA5wH7x12B5z0=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dcKBFIE7ZRPwzcf26ojuMVK5LyV44qSvGhER4N0cDVo=
+			bGxSS+xMOHWVNxMXLpla3qu0bDUtX18wbSiada3t9Io=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dcKBFIE7ZRPwzcf26ojuMVK5LyV44qSvGhER4N0cDVo=
+			bGxSS+xMOHWVNxMXLpla3qu0bDUtX18wbSiada3t9Io=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			man8W6FmCCblVpxIlwK3jzTCJSaZ/7JE8exPOJ3nCFk=
+			5G96+kODoyoFvogj8jTApM1ilh01LCtnfDVf5Hge2yA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

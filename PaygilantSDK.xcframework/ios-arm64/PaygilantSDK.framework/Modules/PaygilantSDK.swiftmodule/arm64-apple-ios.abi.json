@@ -631,6 +631,28 @@
           },
           {
             "kind": "Function",
+            "name": "isApprovePolicy",
+            "printedName": "isApprovePolicy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)isApprovePolicy",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC15isApprovePolicySbyF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "logout",
             "printedName": "logout()",
             "children": [

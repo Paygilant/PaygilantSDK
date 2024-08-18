@@ -44,6 +44,7 @@ public enum PaygilantError : Swift.Error {
   @objc @available(*, deprecated, message: "no longer available ...")
   public func setUserId(userId: Swift.String?)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
+  @objc public func isApprovePolicy() -> Swift.Bool
   @objc @available(*, deprecated, message: "no longer available ...")
   public func logout()
   @objc @available(*, deprecated, message: "no longer available ...")
