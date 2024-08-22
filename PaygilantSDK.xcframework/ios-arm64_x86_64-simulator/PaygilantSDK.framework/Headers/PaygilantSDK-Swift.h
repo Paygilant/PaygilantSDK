@@ -327,6 +327,7 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 enum ScreenListenerType : NSInteger;
 @class UIView;
 @class PaygilantScreenListener;
@@ -349,7 +350,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// returns:
 /// session id
-- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.");
+/// Asynchronously retrieves the current session ID.
+/// note:
+/// The closure is executed on a background thread; use <code>DispatchQueue.main.async</code> for UI updates.
+/// \param sessionIdCallback A closure that is called with the session ID as a <code>String</code>.
+/// <ul>
+///   <li>
+///     If the session is successful, the session ID is provided.
+///   </li>
+///   <li>
+///     If the session fails or times out, a constant indicating failure (e.g., <code>no_session_id</code>) is passed.
+///   </li>
+/// </ul>
+///
+- (void)getSessionIdWithSessionIdCallback:(void (^ _Nonnull)(NSString * _Nonnull))sessionIdCallback;
 /// get device id from paygilant
 ///
 /// returns:
@@ -790,6 +805,7 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 enum ScreenListenerType : NSInteger;
 @class UIView;
 @class PaygilantScreenListener;
@@ -812,7 +828,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// returns:
 /// session id
-- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.");
+/// Asynchronously retrieves the current session ID.
+/// note:
+/// The closure is executed on a background thread; use <code>DispatchQueue.main.async</code> for UI updates.
+/// \param sessionIdCallback A closure that is called with the session ID as a <code>String</code>.
+/// <ul>
+///   <li>
+///     If the session is successful, the session ID is provided.
+///   </li>
+///   <li>
+///     If the session fails or times out, a constant indicating failure (e.g., <code>no_session_id</code>) is passed.
+///   </li>
+/// </ul>
+///
+- (void)getSessionIdWithSessionIdCallback:(void (^ _Nonnull)(NSString * _Nonnull))sessionIdCallback;
 /// get device id from paygilant
 ///
 /// returns:

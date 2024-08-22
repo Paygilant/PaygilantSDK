@@ -39,7 +39,9 @@ public enum PaygilantError : Swift.Error {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
   @objc public static var shared: PaygilantSDK.PaygilantManager
   @objc public func setup(serverUrl: Swift.String, userId: Swift.String? = nil) throws
-  @objc public func getSessionId() -> Swift.String?
+  @objc @available(*, deprecated, message: "Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.")
+  public func getSessionId() -> Swift.String?
+  @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func getDeviceId() -> Swift.String?
   @objc @available(*, deprecated, message: "no longer available ...")
   public func setUserId(userId: Swift.String?)
