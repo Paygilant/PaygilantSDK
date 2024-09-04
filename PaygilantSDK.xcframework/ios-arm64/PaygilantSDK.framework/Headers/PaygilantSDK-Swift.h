@@ -301,13 +301,11 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if defined(__OBJC__)
 typedef SWIFT_ENUM(NSInteger, MobilePermission, open) {
   MobilePermissionReadContacts = 0,
-  MobilePermissionAuthorizedAlways = 1,
-  MobilePermissionAuthorizedWhenInUse = 2,
+  MobilePermissionACCESS_FINE_LOCATION = 1,
+  MobilePermissionACCESS_COARSE_LOCATION = 2,
   MobilePermissionCamera = 3,
-  MobilePermissionReminder = 4,
-  MobilePermissionCalendar = 5,
-  MobilePermissionPhoto = 6,
-  MobilePermissionIdfa = 7,
+  MobilePermissionPhoto = 4,
+  MobilePermissionIdfa = 5,
 };
 
 @class NSString;

@@ -108,11 +108,9 @@ public enum PaygilantError : Swift.Error {
 }
 @objc public enum MobilePermission : Swift.Int, Swift.CaseIterable {
   case readContacts
-  case authorizedAlways
-  case authorizedWhenInUse
+  case ACCESS_FINE_LOCATION
+  case ACCESS_COARSE_LOCATION
   case camera
-  case reminder
-  case calendar
   case photo
   case idfa
   public init?(rawValue: Swift.Int)
