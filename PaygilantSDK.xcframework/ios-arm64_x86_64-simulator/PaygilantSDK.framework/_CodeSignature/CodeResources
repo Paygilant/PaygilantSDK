@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GVLOi0O1Q7Xg2zc+HOCrSVEpug0=
+		UtPEWOtFECrce5rBJ0PCsnumi1M=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lz2qPzXvrcVgL20Trz1IsBfXvaI=
+		4BYRQ70BqbPUviy6mUWroTJ8qgQ=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+GN9T3CLBC2oSajPi4k3N3lMdfI=
+		G2yD5M+YNstM0cQ3Jy3rJsB0I7c=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lz2qPzXvrcVgL20Trz1IsBfXvaI=
+		4BYRQ70BqbPUviy6mUWroTJ8qgQ=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HChEbB3QV4TymMAzN4O0vJXcCAg=
+		KnBQJ6eeziyIw5e/GmVdEDspp5Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ciLYbVuqg+QOVadzWsELUEkRMqD2pa79WaBUhWPyy+k=
+			BfvQ9BIMiWr36oshX2h+nRHwsqcMKCDB9iOeXy+nMWU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0+QRihXFNiK686zdnOn6BlujnfLHXJVVBpYiLiT3Q+I=
+			sbMYrJGnTG/vOGBl3BSXdKkEjBql62Q/1zOU6zITDHc=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ciLYbVuqg+QOVadzWsELUEkRMqD2pa79WaBUhWPyy+k=
+			BfvQ9BIMiWr36oshX2h+nRHwsqcMKCDB9iOeXy+nMWU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9FDM4NR6UrRym3E96TPnXYiMrJFXY61/eTl3E1WRshc=
+			UaOUFF7UgbppHl9fbgAGO8McozLakl8tSHq9Wo5xd5I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
