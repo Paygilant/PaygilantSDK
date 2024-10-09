@@ -4082,64 +4082,29 @@
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8577,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 2723,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20565,
+      "offset": 2760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20837,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 21051,
+      "offset": 9786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "StringLiteral",
-      "offset": 21266,
-      "length": 59,
-      "value": "\"response: \""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "StringLiteral",
-      "offset": 21300,
-      "length": 9,
-      "value": "\" isSuccess: \""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "StringLiteral",
-      "offset": 21324,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21502,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22033,
+      "offset": 22923,
       "length": 4,
       "value": "1000"
     },
