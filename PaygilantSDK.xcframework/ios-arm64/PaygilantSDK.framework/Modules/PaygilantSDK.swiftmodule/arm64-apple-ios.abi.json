@@ -5,1139 +5,6 @@
     "printedName": "PaygilantSDK",
     "children": [
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration",
-        "printedName": "SystemConfiguration",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Contacts",
-        "printedName": "Contacts",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "EventKitUI",
-        "printedName": "EventKitUI",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "EventKitUI",
-        "printedName": "EventKitUI",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PaygilantError",
-        "printedName": "PaygilantError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "message",
-            "printedName": "message",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PaygilantSDK.PaygilantError.Type) -> PaygilantSDK.PaygilantError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaygilantError",
-                    "printedName": "PaygilantSDK.PaygilantError",
-                    "usr": "s:12PaygilantSDK0A5ErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PaygilantSDK.PaygilantError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaygilantError",
-                        "printedName": "PaygilantSDK.PaygilantError",
-                        "usr": "s:12PaygilantSDK0A5ErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12PaygilantSDK0A5ErrorO7messageyA2CmF",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO7messageyA2CmF",
-            "moduleName": "PaygilantSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12PaygilantSDK0A5ErrorO11descriptionSSvp",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO11descriptionSSvp",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12PaygilantSDK0A5ErrorO11descriptionSSvg",
-                "mangledName": "$s12PaygilantSDK0A5ErrorO11descriptionSSvg",
-                "moduleName": "PaygilantSDK",
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantError",
-                "printedName": "PaygilantSDK.PaygilantError",
-                "usr": "s:12PaygilantSDK0A5ErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantError",
-                "printedName": "PaygilantSDK.PaygilantError",
-                "usr": "s:12PaygilantSDK0A5ErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PaygilantSDK0A5ErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "PaygilantSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12PaygilantSDK0A5ErrorO9hashValueSivp",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO9hashValueSivp",
-            "moduleName": "PaygilantSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12PaygilantSDK0A5ErrorO9hashValueSivg",
-                "mangledName": "$s12PaygilantSDK0A5ErrorO9hashValueSivg",
-                "moduleName": "PaygilantSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12PaygilantSDK0A5ErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "PaygilantSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12PaygilantSDK0A5ErrorO",
-        "mangledName": "$s12PaygilantSDK0A5ErrorO",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PaygilantManager",
-        "printedName": "PaygilantManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantManager",
-                "printedName": "PaygilantSDK.PaygilantManager",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cpy)shared",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvpZ",
-            "moduleName": "PaygilantSDK",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaygilantManager",
-                    "printedName": "PaygilantSDK.PaygilantManager",
-                    "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cm)shared",
-                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvgZ",
-                "moduleName": "PaygilantSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaygilantManager",
-                    "printedName": "PaygilantSDK.PaygilantManager",
-                    "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cm)setShared:",
-                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvsZ",
-                "moduleName": "PaygilantSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12PaygilantSDK0A7ManagerC6sharedACvMZ",
-                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvMZ",
-                "moduleName": "PaygilantSDK",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "setup",
-            "printedName": "setup(serverUrl:userId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setupWithServerUrl:userId:error:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl6userIdySS_SSSgtKF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getSessionId",
-            "printedName": "getSessionId()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)getSessionId",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC12getSessionIdSSSgyF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getSessionId",
-            "printedName": "getSessionId(sessionIdCallback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)getSessionIdWithSessionIdCallback:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC12getSessionId07sessionF8CallbackyySSc_tF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDeviceId",
-            "printedName": "getDeviceId()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)getDeviceId",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC11getDeviceIdSSSgyF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setUserId",
-            "printedName": "setUserId(userId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setUserIdWithUserId:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC9setUserId04userF0ySSSg_tF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setApprovePolicy",
-            "printedName": "setApprovePolicy(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setApprovePolicy:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC16setApprovePolicyyySbF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isApprovePolicy",
-            "printedName": "isApprovePolicy()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)isApprovePolicy",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC15isApprovePolicySbyF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)logout",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC6logoutyyF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startNewScreenListener",
-            "printedName": "startNewScreenListener(with:actionId:view:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantScreenListener",
-                "printedName": "PaygilantSDK.PaygilantScreenListener",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ScreenListenerType",
-                "printedName": "PaygilantSDK.ScreenListenerType",
-                "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)startNewScreenListenerWith:actionId:view:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC22startNewScreenListener4with8actionId4viewAA0afG0CAA0fG4TypeO_SiSo6UIViewCtF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "initializeDeviceId",
-            "printedName": "initializeDeviceId()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)initializeDeviceId",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC18initializeDeviceIdyyF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onRequestAccess",
-            "printedName": "onRequestAccess(typeMobilePermission:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MobilePermission",
-                "printedName": "PaygilantSDK.MobilePermission",
-                "usr": "c:@M@PaygilantSDK@E@MobilePermission"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)onRequestAccessWithTypeMobilePermission:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC15onRequestAccess20typeMobilePermissionyAA0hI0O_tF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager",
-        "mangledName": "$s12PaygilantSDK0A7ManagerC",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Compression",
-        "printedName": "Compression",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SystemConfiguration.CaptiveNetwork",
-        "printedName": "SystemConfiguration.CaptiveNetwork",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Contacts",
-        "printedName": "Contacts",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Photos",
-        "printedName": "Photos",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony.CTCarrier",
-        "printedName": "CoreTelephony.CTCarrier",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "CommonCrypto",
-        "printedName": "CommonCrypto",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "EventKitUI",
-        "printedName": "EventKitUI",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Security",
-        "printedName": "Security",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "ScreenListenerType",
         "printedName": "ScreenListenerType",
@@ -2562,6 +1429,1132 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaygilantError",
+        "printedName": "PaygilantError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "MESSAGE_SERVER_URL",
+            "printedName": "MESSAGE_SERVER_URL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PaygilantSDK.PaygilantError.Type) -> PaygilantSDK.PaygilantError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaygilantError",
+                    "printedName": "PaygilantSDK.PaygilantError",
+                    "usr": "s:12PaygilantSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PaygilantSDK.PaygilantError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaygilantError",
+                        "printedName": "PaygilantSDK.PaygilantError",
+                        "usr": "s:12PaygilantSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PaygilantSDK0A5ErrorO18MESSAGE_SERVER_URLyA2CmF",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO18MESSAGE_SERVER_URLyA2CmF",
+            "moduleName": "PaygilantSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SET_APPROVE_POLICY_TO_TRUE",
+            "printedName": "SET_APPROVE_POLICY_TO_TRUE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PaygilantSDK.PaygilantError.Type) -> PaygilantSDK.PaygilantError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaygilantError",
+                    "printedName": "PaygilantSDK.PaygilantError",
+                    "usr": "s:12PaygilantSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PaygilantSDK.PaygilantError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaygilantError",
+                        "printedName": "PaygilantSDK.PaygilantError",
+                        "usr": "s:12PaygilantSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PaygilantSDK0A5ErrorO26SET_APPROVE_POLICY_TO_TRUEyA2CmF",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO26SET_APPROVE_POLICY_TO_TRUEyA2CmF",
+            "moduleName": "PaygilantSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ERROR_CONNECTION",
+            "printedName": "ERROR_CONNECTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PaygilantSDK.PaygilantError.Type) -> PaygilantSDK.PaygilantError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaygilantError",
+                    "printedName": "PaygilantSDK.PaygilantError",
+                    "usr": "s:12PaygilantSDK0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PaygilantSDK.PaygilantError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaygilantError",
+                        "printedName": "PaygilantSDK.PaygilantError",
+                        "usr": "s:12PaygilantSDK0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PaygilantSDK0A5ErrorO16ERROR_CONNECTIONyA2CmF",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO16ERROR_CONNECTIONyA2CmF",
+            "moduleName": "PaygilantSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PaygilantSDK0A5ErrorO11descriptionSSvp",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO11descriptionSSvp",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PaygilantSDK0A5ErrorO11descriptionSSvg",
+                "mangledName": "$s12PaygilantSDK0A5ErrorO11descriptionSSvg",
+                "moduleName": "PaygilantSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaygilantError",
+                "printedName": "PaygilantSDK.PaygilantError",
+                "usr": "s:12PaygilantSDK0A5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaygilantError",
+                "printedName": "PaygilantSDK.PaygilantError",
+                "usr": "s:12PaygilantSDK0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PaygilantSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PaygilantSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PaygilantSDK0A5ErrorO9hashValueSivp",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO9hashValueSivp",
+            "moduleName": "PaygilantSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PaygilantSDK0A5ErrorO9hashValueSivg",
+                "mangledName": "$s12PaygilantSDK0A5ErrorO9hashValueSivg",
+                "moduleName": "PaygilantSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PaygilantSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PaygilantSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PaygilantSDK0A5ErrorO",
+        "mangledName": "$s12PaygilantSDK0A5ErrorO",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EventKitUI",
+        "printedName": "EventKitUI",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "EventKitUI",
+        "printedName": "EventKitUI",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaygilantManager",
+        "printedName": "PaygilantManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaygilantManager",
+                "printedName": "PaygilantSDK.PaygilantManager",
+                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cpy)shared",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvpZ",
+            "moduleName": "PaygilantSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaygilantManager",
+                    "printedName": "PaygilantSDK.PaygilantManager",
+                    "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cm)shared",
+                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvgZ",
+                "moduleName": "PaygilantSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaygilantManager",
+                    "printedName": "PaygilantSDK.PaygilantManager",
+                    "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cm)setShared:",
+                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvsZ",
+                "moduleName": "PaygilantSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PaygilantSDK0A7ManagerC6sharedACvMZ",
+                "mangledName": "$s12PaygilantSDK0A7ManagerC6sharedACvMZ",
+                "moduleName": "PaygilantSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(serverUrl:clientSessionId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), PaygilantSDK.PaygilantError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), PaygilantSDK.PaygilantError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaygilantError",
+                        "printedName": "PaygilantSDK.PaygilantError",
+                        "usr": "s:12PaygilantSDK0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId10completionySS_SSSgys6ResultOyytAA0A5ErrorOGctKF",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId10completionySS_SSSgys6ResultOyytAA0A5ErrorOGctKF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSessionId",
+            "printedName": "getSessionId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)getSessionId",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC12getSessionIdSSSgyF",
+            "moduleName": "PaygilantSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSessionId",
+            "printedName": "getSessionId(sessionIdCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)getSessionIdWithSessionIdCallback:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC12getSessionId07sessionF8CallbackyySSc_tF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setApprovePolicy",
+            "printedName": "setApprovePolicy(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setApprovePolicy:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC16setApprovePolicyyySbF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isApprovePolicy",
+            "printedName": "isApprovePolicy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)isApprovePolicy",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC15isApprovePolicySbyF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)logout",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC6logoutyyF",
+            "moduleName": "PaygilantSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeDeviceId",
+            "printedName": "initializeDeviceId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)initializeDeviceId",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC18initializeDeviceIdyyF",
+            "moduleName": "PaygilantSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onRequestAccess",
+            "printedName": "onRequestAccess(typeMobilePermission:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MobilePermission",
+                "printedName": "PaygilantSDK.MobilePermission",
+                "usr": "c:@M@PaygilantSDK@E@MobilePermission"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)onRequestAccessWithTypeMobilePermission:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC15onRequestAccess20typeMobilePermissionyAA0hI0O_tF",
+            "moduleName": "PaygilantSDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager",
+        "mangledName": "$s12PaygilantSDK0A7ManagerC",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Compression",
+        "printedName": "Compression",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony.CTCarrier",
+        "printedName": "CoreTelephony.CTCarrier",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "EventKitUI",
+        "printedName": "EventKitUI",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Contacts",
         "printedName": "Contacts",
         "declKind": "Import",
@@ -3524,183 +3517,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "PaygilantScreenListener",
-        "printedName": "PaygilantScreenListener",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(type:actionId:view:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantScreenListener",
-                "printedName": "PaygilantSDK.PaygilantScreenListener",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ScreenListenerType",
-                "printedName": "PaygilantSDK.ScreenListenerType",
-                "usr": "c:@M@PaygilantSDK@E@ScreenListenerType"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIView",
-                "printedName": "UIKit.UIView",
-                "usr": "c:objc(cs)UIView"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener(im)initWithType:actionId:view:",
-            "mangledName": "$s12PaygilantSDK0A14ScreenListenerC4type8actionId4viewAcA0cD4TypeO_SiSo6UIViewCtcfc",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "finishScreenListener",
-            "printedName": "finishScreenListener()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener(im)finishScreenListener",
-            "mangledName": "$s12PaygilantSDK0A14ScreenListenerC06finishcD0yyF",
-            "moduleName": "PaygilantSDK",
-            "deprecated": true,
-            "declAttributes": [
-              "AccessControl",
-              "Available",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaygilantScreenListener",
-                "printedName": "PaygilantSDK.PaygilantScreenListener",
-                "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener(im)init",
-            "mangledName": "$s12PaygilantSDK0A14ScreenListenerCACycfc",
-            "moduleName": "PaygilantSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantScreenListener",
-        "mangledName": "$s12PaygilantSDK0A14ScreenListenerC",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3744,6 +3560,132 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 291,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 332,
+      "length": 14,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 356,
+      "length": 13,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 14,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 12,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 425,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 19,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 471,
+      "length": 8,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 489,
+      "length": 14,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 513,
+      "length": 14,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 537,
+      "length": 7,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 18,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 582,
+      "length": 15,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 607,
+      "length": 14,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 631,
+      "length": 12,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 653,
+      "length": 11,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "18"
+    },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/AppRunMode.swift",
       "kind": "IntegerLiteral",
@@ -3915,196 +3857,189 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 238,
-      "length": 10,
-      "value": "\"deviceId\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 304,
+      "offset": 243,
       "length": 15,
       "value": "\"approvePolicy\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 346,
+      "offset": 284,
       "length": 17,
       "value": "\"PG_SESSION_TIME\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 387,
+      "offset": 325,
       "length": 15,
       "value": "\"PG_SESSION_ID\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 362,
       "length": 11,
       "value": "\"serverUrl\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 3920,
+      "offset": 3891,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 4003,
+      "offset": 3974,
       "length": 11,
       "value": "\"shareData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 761,
+      "offset": 704,
       "length": 5,
       "value": "60000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "FloatLiteral",
-      "offset": 821,
+      "offset": 764,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "FloatLiteral",
-      "offset": 866,
+      "offset": 809,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 848,
       "length": 13,
       "value": "\"sendTracing\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 901,
       "length": 21,
       "value": "\"getSdkConfiguration\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 1012,
+      "offset": 955,
       "length": 16,
       "value": "\"sendECrashData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1007,
       "length": 13,
       "value": "\"getDeviceID\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1060,
       "length": 17,
       "value": "\"sendSessionData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 1170,
+      "offset": 1113,
       "length": 15,
       "value": "\"no_session_id\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1488,
+      "offset": 1430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1701,
+      "offset": 1643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2059,
+      "offset": 1880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2098,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2312,
+      "offset": 2133,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2350,
+      "offset": 2171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2381,
+      "offset": 2202,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2638,
+      "offset": 2459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2723,
+      "offset": 2544,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2760,
+      "offset": 2581,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9786,
+      "offset": 9073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22923,
+      "offset": 19826,
       "length": 4,
       "value": "1000"
     },
@@ -4629,7 +4564,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 15906,
+      "offset": 15771,
       "length": 4,
       "value": "true"
     },
@@ -4713,35 +4648,35 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/DispatchRetry.swift",
       "kind": "StringLiteral",
-      "offset": 8957,
+      "offset": 7182,
       "length": 13,
       "value": "\"sessionData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/DispatchRetry.swift",
       "kind": "StringLiteral",
-      "offset": 8991,
+      "offset": 7216,
       "length": 10,
       "value": "\"deviceId\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/DispatchRetry.swift",
       "kind": "StringLiteral",
-      "offset": 9023,
+      "offset": 7248,
       "length": 11,
       "value": "\"sdkConfig\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/DispatchRetry.swift",
       "kind": "IntegerLiteral",
-      "offset": 9766,
+      "offset": 7991,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/DispatchRetry.swift",
       "kind": "BooleanLiteral",
-      "offset": 9802,
+      "offset": 8027,
       "length": 4,
       "value": "true"
     },
@@ -4837,132 +4772,6 @@
       "value": "0.1"
     },
     {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 291,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 311,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 332,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 356,
-      "length": 13,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 14,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 403,
-      "length": 12,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 425,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 19,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 471,
-      "length": 8,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 489,
-      "length": 14,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 513,
-      "length": 14,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 537,
-      "length": 7,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 18,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 582,
-      "length": 15,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 607,
-      "length": 14,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 631,
-      "length": 12,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 653,
-      "length": 11,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Biometric\/Listener\/Data\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 674,
-      "length": 5,
-      "value": "18"
-    },
-    {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataManager.swift",
       "kind": "StringLiteral",
       "offset": 384,
@@ -5014,7 +4823,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1679,
+      "offset": 1202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1817,
       "length": 4,
       "value": "true"
     },
@@ -5189,98 +5005,70 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1451,
+      "offset": 1450,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1512,
       "length": 15,
       "value": "\"pmfd-med\/3.0\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1572,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1589,
-      "length": 19,
-      "value": "\"getSdkConfiguration\/\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1564,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1712,
+      "offset": 1581,
       "length": 12,
       "value": "\"CrashLogging\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 1631,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1779,
+      "offset": 1648,
       "length": 11,
       "value": "\"TracingData\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
-      "length": 30,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1845,
-      "length": 11,
-      "value": "\"GetDeviceID\/\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1701,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 1941,
+      "offset": 1718,
       "length": 15,
       "value": "\"SendSessionData\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
+      "offset": 1808,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/PaygilantNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7616,
+      "offset": 5576,
       "length": 5,
       "value": "false"
     },

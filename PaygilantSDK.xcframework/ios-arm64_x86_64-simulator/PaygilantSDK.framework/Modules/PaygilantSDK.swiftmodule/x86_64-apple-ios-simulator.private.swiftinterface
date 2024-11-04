@@ -26,38 +26,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum PaygilantError : Swift.Error {
-  case message
-  public var description: Swift.String {
-    get
-  }
-  public static func == (a: PaygilantSDK.PaygilantError, b: PaygilantSDK.PaygilantError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
-  @objc public static var shared: PaygilantSDK.PaygilantManager
-  @objc public func setup(serverUrl: Swift.String, userId: Swift.String? = nil) throws
-  @objc @available(*, deprecated, message: "Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.")
-  public func getSessionId() -> Swift.String?
-  @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
-  @objc public func getDeviceId() -> Swift.String?
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func setUserId(userId: Swift.String?)
-  @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
-  @objc public func isApprovePolicy() -> Swift.Bool
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func logout()
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func startNewScreenListener(with type: PaygilantSDK.ScreenListenerType, actionId: Swift.Int, view: UIKit.UIView) -> PaygilantSDK.PaygilantScreenListener
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func initializeDeviceId()
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func onRequestAccess(typeMobilePermission: PaygilantSDK.MobilePermission)
-  @objc deinit
-}
 @available(*, deprecated, message: "no longer available ...")
 @objc public enum ScreenListenerType : Swift.Int, Swift.CaseIterable {
   case REGISTRATION_FORM
@@ -109,6 +77,36 @@ public enum PaygilantError : Swift.Error {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum PaygilantError : Swift.Error {
+  case MESSAGE_SERVER_URL
+  case SET_APPROVE_POLICY_TO_TRUE
+  case ERROR_CONNECTION
+  public var description: Swift.String {
+    get
+  }
+  public static func == (a: PaygilantSDK.PaygilantError, b: PaygilantSDK.PaygilantError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
+  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
+  @objc public static var shared: PaygilantSDK.PaygilantManager
+  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
+  @objc @available(*, deprecated, message: "Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.")
+  public func getSessionId() -> Swift.String?
+  @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
+  @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
+  @objc public func isApprovePolicy() -> Swift.Bool
+  @objc @available(*, deprecated, message: "no longer available ...")
+  public func logout()
+  @objc @available(*, deprecated, message: "no longer available ...")
+  public func initializeDeviceId()
+  @objc @available(*, deprecated, message: "no longer available ...")
+  public func onRequestAccess(typeMobilePermission: PaygilantSDK.MobilePermission)
+  @objc deinit
+}
 @objc public enum MobilePermission : Swift.Int, Swift.CaseIterable {
   case readContacts
   case readContactsLimited
@@ -140,20 +138,14 @@ public enum PaygilantError : Swift.Error {
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @objcMembers public class PaygilantScreenListener : ObjectiveC.NSObject {
-  @objc public init(type: PaygilantSDK.ScreenListenerType, actionId: Swift.Int, view: UIKit.UIView)
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func finishScreenListener()
-  @objc deinit
-}
-extension PaygilantSDK.PaygilantError : Swift.Equatable {}
-extension PaygilantSDK.PaygilantError : Swift.Hashable {}
 @available(*, deprecated, message: "no longer available ...")
 extension PaygilantSDK.ScreenListenerType : Swift.Equatable {}
 @available(*, deprecated, message: "no longer available ...")
 extension PaygilantSDK.ScreenListenerType : Swift.Hashable {}
 @available(*, deprecated, message: "no longer available ...")
 extension PaygilantSDK.ScreenListenerType : Swift.RawRepresentable {}
+extension PaygilantSDK.PaygilantError : Swift.Equatable {}
+extension PaygilantSDK.PaygilantError : Swift.Hashable {}
 extension PaygilantSDK.MobilePermission : Swift.Equatable {}
 extension PaygilantSDK.MobilePermission : Swift.Hashable {}
 extension PaygilantSDK.MobilePermission : Swift.RawRepresentable {}

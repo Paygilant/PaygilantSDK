@@ -15,7 +15,9 @@ class ViewController: UIViewController {
         
         
         do{
-            try PaygilantManager.shared.setup(serverUrl: ViewController.SERVER_URL)
+            try PaygilantManager.shared.setup(serverUrl: ViewController.SERVER_URL, completion: {result in
+                
+            })
         }catch let error as PaygilantError {
             print(error.description)
         }

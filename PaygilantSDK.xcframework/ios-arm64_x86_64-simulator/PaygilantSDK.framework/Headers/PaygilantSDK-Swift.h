@@ -332,9 +332,6 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 @end
 
 
-enum ScreenListenerType : NSInteger;
-@class UIView;
-@class PaygilantScreenListener;
 
 SWIFT_CLASS("_TtC12PaygilantSDK16PaygilantManager")
 @interface PaygilantManager : NSObject
@@ -344,12 +341,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 + (void)setShared:(PaygilantManager * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// PaygilantManager is a singleton and thus setup() should be used upon application launch and only once. The setup() method must be called before calling sharedInstance
-/// \param serverUrl Server URL is used to identify the app environment at the Paygilant Cloud environment. This ID will be provided by Paygilant during integration process.
-///
-/// \param userId App user ID. Optional value, which can be omitted if doesn’t exist at this point.
-///
-- (BOOL)setupWithServerUrl:(NSString * _Nonnull)serverUrl userId:(NSString * _Nullable)userId error:(NSError * _Nullable * _Nullable)error;
 /// get session id from paygilant
 ///
 /// returns:
@@ -369,16 +360,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// </ul>
 ///
 - (void)getSessionIdWithSessionIdCallback:(void (^ _Nonnull)(NSString * _Nonnull))sessionIdCallback;
-/// get device id from paygilant
-///
-/// returns:
-/// device id
-- (NSString * _Nullable)getDeviceId SWIFT_WARN_UNUSED_RESULT;
-/// After the login or registration process,
-/// When the user receives the “user id”, the app needs to update the SDK with this information.
-/// \param userId user Id, default: “UNKNOWN”
-///
-- (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// After the initialize and approve policy process.
 /// <ul>
 ///   <li>
@@ -395,48 +376,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
-/// Called when we want to start listening for events that occurred during application lifetime.
-/// Call startNewScreenListener inside viewWillAppear() Controller method for listening to all events occurring during the Controller lifetime.
-/// This is the only way that the application should initialize PaygilantScreenListener object.
-/// \param type Type of the screen.
-///
-/// \param actionId Unique ID for an action.
-///
-/// \param view Pass contain view in controller.
-///
-///
-/// returns:
-/// Object that is used to manage tracking.
-- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
 - (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///
 - (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission SWIFT_DEPRECATED_MSG("no longer available ...");
-@end
-
-
-/// PaygilantScreenListener is the SDK class that monitors the user’s interactions with the application and device.
-/// The class supports monitoring user touch events, motion sensors or both.
-/// Monitoring user interaction and motion sensors is a resource-intensive process.
-/// Paygilant therefore recommends seeking guidance from its assigned  customer success manager to ensure that selected
-/// checkpoints/screens/events for monitoring are carefully chosen.
-SWIFT_CLASS("_TtC12PaygilantSDK23PaygilantScreenListener")
-@interface PaygilantScreenListener : NSObject
-/// Init PaygilantScreenListener
-/// \param screenListenerType screenListenerType
-///
-/// \param actionId actionId
-///
-/// \param view self.view
-///
-- (nonnull instancetype)initWithType:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
-/// Called when completing screen tracking and when stopping to listen to motion sensors, e.g. moving to next screen, pushing on login button etc.
-/// It must be called from the viewWillDisappear() controller method.
-- (void)finishScreenListener SWIFT_DEPRECATED_MSG("no longer available ...");
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
@@ -818,9 +763,6 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 @end
 
 
-enum ScreenListenerType : NSInteger;
-@class UIView;
-@class PaygilantScreenListener;
 
 SWIFT_CLASS("_TtC12PaygilantSDK16PaygilantManager")
 @interface PaygilantManager : NSObject
@@ -830,12 +772,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 + (void)setShared:(PaygilantManager * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// PaygilantManager is a singleton and thus setup() should be used upon application launch and only once. The setup() method must be called before calling sharedInstance
-/// \param serverUrl Server URL is used to identify the app environment at the Paygilant Cloud environment. This ID will be provided by Paygilant during integration process.
-///
-/// \param userId App user ID. Optional value, which can be omitted if doesn’t exist at this point.
-///
-- (BOOL)setupWithServerUrl:(NSString * _Nonnull)serverUrl userId:(NSString * _Nullable)userId error:(NSError * _Nullable * _Nullable)error;
 /// get session id from paygilant
 ///
 /// returns:
@@ -855,16 +791,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// </ul>
 ///
 - (void)getSessionIdWithSessionIdCallback:(void (^ _Nonnull)(NSString * _Nonnull))sessionIdCallback;
-/// get device id from paygilant
-///
-/// returns:
-/// device id
-- (NSString * _Nullable)getDeviceId SWIFT_WARN_UNUSED_RESULT;
-/// After the login or registration process,
-/// When the user receives the “user id”, the app needs to update the SDK with this information.
-/// \param userId user Id, default: “UNKNOWN”
-///
-- (void)setUserIdWithUserId:(NSString * _Nullable)userId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// After the initialize and approve policy process.
 /// <ul>
 ///   <li>
@@ -881,48 +807,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
 /// Once the logout event occurs in the application, this function should be called.
 - (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
-/// Called when we want to start listening for events that occurred during application lifetime.
-/// Call startNewScreenListener inside viewWillAppear() Controller method for listening to all events occurring during the Controller lifetime.
-/// This is the only way that the application should initialize PaygilantScreenListener object.
-/// \param type Type of the screen.
-///
-/// \param actionId Unique ID for an action.
-///
-/// \param view Pass contain view in controller.
-///
-///
-/// returns:
-/// Object that is used to manage tracking.
-- (PaygilantScreenListener * _Nonnull)startNewScreenListenerWith:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("no longer available ...");
 /// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
 - (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///
 - (void)onRequestAccessWithTypeMobilePermission:(enum MobilePermission)typeMobilePermission SWIFT_DEPRECATED_MSG("no longer available ...");
-@end
-
-
-/// PaygilantScreenListener is the SDK class that monitors the user’s interactions with the application and device.
-/// The class supports monitoring user touch events, motion sensors or both.
-/// Monitoring user interaction and motion sensors is a resource-intensive process.
-/// Paygilant therefore recommends seeking guidance from its assigned  customer success manager to ensure that selected
-/// checkpoints/screens/events for monitoring are carefully chosen.
-SWIFT_CLASS("_TtC12PaygilantSDK23PaygilantScreenListener")
-@interface PaygilantScreenListener : NSObject
-/// Init PaygilantScreenListener
-/// \param screenListenerType screenListenerType
-///
-/// \param actionId actionId
-///
-/// \param view self.view
-///
-- (nonnull instancetype)initWithType:(enum ScreenListenerType)type actionId:(NSInteger)actionId view:(UIView * _Nonnull)view OBJC_DESIGNATED_INITIALIZER;
-/// Called when completing screen tracking and when stopping to listen to motion sensors, e.g. moving to next screen, pushing on login button etc.
-/// It must be called from the viewWillDisappear() controller method.
-- (void)finishScreenListener SWIFT_DEPRECATED_MSG("no longer available ...");
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 typedef SWIFT_ENUM(NSInteger, ScreenListenerType, open) {
