@@ -77,21 +77,24 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
-  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantManager.PaygilantError>) -> Swift.Void
-  public enum PaygilantError : Swift.Int, Swift.Error {
-    case MESSAGE_SERVER_URL
-    case SET_APPROVE_POLICY_TO_TRUE
-    case ERROR_CONNECTION
-    public var description: Swift.String {
-      get
-    }
-    public init?(rawValue: Swift.Int)
-    public typealias RawValue = Swift.Int
-    public var rawValue: Swift.Int {
-      get
-    }
+@objc public enum PaygilantError : Swift.Int, Swift.Error {
+  case MESSAGE_SERVER_URL
+  case SET_APPROVE_POLICY_TO_TRUE
+  case ERROR_CONNECTION
+  public var description: Swift.String {
+    get
   }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
+  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
   @objc public static var shared: PaygilantSDK.PaygilantManager
   public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
@@ -139,9 +142,9 @@ extension PaygilantSDK.ScreenListenerType : Swift.Equatable {}
 extension PaygilantSDK.ScreenListenerType : Swift.Hashable {}
 @available(*, deprecated, message: "no longer available ...")
 extension PaygilantSDK.ScreenListenerType : Swift.RawRepresentable {}
-extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.Equatable {}
-extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.Hashable {}
-extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.RawRepresentable {}
+extension PaygilantSDK.PaygilantError : Swift.Equatable {}
+extension PaygilantSDK.PaygilantError : Swift.Hashable {}
+extension PaygilantSDK.PaygilantError : Swift.RawRepresentable {}
 extension PaygilantSDK.MobilePermission : Swift.Equatable {}
 extension PaygilantSDK.MobilePermission : Swift.Hashable {}
 extension PaygilantSDK.MobilePermission : Swift.RawRepresentable {}

@@ -332,6 +332,13 @@ SWIFT_CLASS("_TtC12PaygilantSDK24MobilePermissionToString")
 @end
 
 
+typedef SWIFT_ENUM(NSInteger, PaygilantError, open) {
+  PaygilantErrorMESSAGE_SERVER_URL = 0,
+  PaygilantErrorSET_APPROVE_POLICY_TO_TRUE = 1,
+  PaygilantErrorERROR_CONNECTION = 2,
+};
+static NSString * _Nonnull const PaygilantErrorDomain = @"PaygilantSDK.PaygilantError";
+
 
 SWIFT_CLASS("_TtC12PaygilantSDK16PaygilantManager")
 @interface PaygilantManager : NSObject
