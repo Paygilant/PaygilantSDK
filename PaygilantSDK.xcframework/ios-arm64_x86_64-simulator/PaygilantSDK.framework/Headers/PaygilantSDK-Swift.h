@@ -341,11 +341,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 + (void)setShared:(PaygilantManager * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// get session id from paygilant
-///
-/// returns:
-/// session id
-- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.");
+- (void)setupWithServerUrl:(NSString * _Nonnull)serverUrl clientSessionId:(NSString * _Nullable)clientSessionId success:(void (^ _Nonnull)(void))success failure:(void (^ _Nonnull)(NSString * _Nonnull))failure;
 /// Asynchronously retrieves the current session ID.
 /// note:
 /// The closure is executed on a background thread; use <code>DispatchQueue.main.async</code> for UI updates.
@@ -374,10 +370,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// returns:
 /// isApprovePolicy
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
-/// Once the logout event occurs in the application, this function should be called.
-- (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
-/// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
-- (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///
@@ -772,11 +764,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 + (void)setShared:(PaygilantManager * _Nonnull)value;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-/// get session id from paygilant
-///
-/// returns:
-/// session id
-- (NSString * _Nullable)getSessionId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED_MSG("Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.");
+- (void)setupWithServerUrl:(NSString * _Nonnull)serverUrl clientSessionId:(NSString * _Nullable)clientSessionId success:(void (^ _Nonnull)(void))success failure:(void (^ _Nonnull)(NSString * _Nonnull))failure;
 /// Asynchronously retrieves the current session ID.
 /// note:
 /// The closure is executed on a background thread; use <code>DispatchQueue.main.async</code> for UI updates.
@@ -805,10 +793,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// returns:
 /// isApprovePolicy
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
-/// Once the logout event occurs in the application, this function should be called.
-- (void)logout SWIFT_DEPRECATED_MSG("no longer available ...");
-/// Used to update the PaygilantManager with device ID information, best if called immediately after PaygilantManager.setup.
-- (void)initializeDeviceId SWIFT_DEPRECATED_MSG("no longer available ...");
 /// alled on relevant request access when requesting permissions for the application.
 /// \param typeMobilePermission Paygilant enum for relevant mobile permissions
 ///

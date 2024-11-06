@@ -77,32 +77,27 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-public enum PaygilantError : Swift.Error {
-  case MESSAGE_SERVER_URL
-  case SET_APPROVE_POLICY_TO_TRUE
-  case ERROR_CONNECTION
-  public var description: Swift.String {
-    get
-  }
-  public static func == (a: PaygilantSDK.PaygilantError, b: PaygilantSDK.PaygilantError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
-  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
+  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantManager.PaygilantError>) -> Swift.Void
+  public enum PaygilantError : Swift.Int, Swift.Error {
+    case MESSAGE_SERVER_URL
+    case SET_APPROVE_POLICY_TO_TRUE
+    case ERROR_CONNECTION
+    public var description: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
   @objc public static var shared: PaygilantSDK.PaygilantManager
   public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
-  @objc @available(*, deprecated, message: "Use `getSessionId(sessionIdCallback:)` instead. The new method handles the session ID asynchronously.")
-  public func getSessionId() -> Swift.String?
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @objc public func isApprovePolicy() -> Swift.Bool
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func logout()
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func initializeDeviceId()
   @objc @available(*, deprecated, message: "no longer available ...")
   public func onRequestAccess(typeMobilePermission: PaygilantSDK.MobilePermission)
   @objc deinit
@@ -144,8 +139,9 @@ extension PaygilantSDK.ScreenListenerType : Swift.Equatable {}
 extension PaygilantSDK.ScreenListenerType : Swift.Hashable {}
 @available(*, deprecated, message: "no longer available ...")
 extension PaygilantSDK.ScreenListenerType : Swift.RawRepresentable {}
-extension PaygilantSDK.PaygilantError : Swift.Equatable {}
-extension PaygilantSDK.PaygilantError : Swift.Hashable {}
+extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.Equatable {}
+extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.Hashable {}
+extension PaygilantSDK.PaygilantManager.PaygilantError : Swift.RawRepresentable {}
 extension PaygilantSDK.MobilePermission : Swift.Equatable {}
 extension PaygilantSDK.MobilePermission : Swift.Hashable {}
 extension PaygilantSDK.MobilePermission : Swift.RawRepresentable {}

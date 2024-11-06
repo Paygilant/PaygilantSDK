@@ -18,8 +18,8 @@ class ViewController: UIViewController {
             try PaygilantManager.shared.setup(serverUrl: ViewController.SERVER_URL, completion: {result in
                 
             })
-        }catch let error as PaygilantError {
-            print(error.description)
+        }catch let error as Error{
+            print(error.localizedDescription.description)
         }
         catch{}
         // Do any additional setup after loading the view.
