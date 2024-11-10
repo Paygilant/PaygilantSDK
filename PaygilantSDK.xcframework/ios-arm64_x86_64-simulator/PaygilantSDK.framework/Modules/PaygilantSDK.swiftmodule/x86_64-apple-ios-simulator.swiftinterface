@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-4.2 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-4.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PaygilantSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -26,57 +26,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@available(*, deprecated, message: "no longer available ...")
-@objc public enum ScreenListenerType : Swift.Int, Swift.CaseIterable {
-  case REGISTRATION_FORM
-  case LOGIN_FORM
-  case MAIN_SCREEN
-  case CATALOG_SCREEN
-  case SEARCH_SCREEN
-  case PRODUCT_SCREEN
-  case GENERAL_FORM
-  case PINCODE
-  case TRANSACTION_DETAILS
-  case CONTACTS
-  case PAYMENT_SCREEN
-  case EMULATOR_CHECK
-  case GENERAL
-  case ADD_PAYMENT_SCREEN
-  case WITHDRAW_SCREEN
-  case DEPOSIT_SCREEN
-  case NOTIFICATION
-  case CARD_SCREEN
-  case LOGIN
-  public init?(rawValue: Swift.Int)
-  @available(*, deprecated, message: "no longer available ...")
-  public typealias AllCases = [PaygilantSDK.ScreenListenerType]
-  @available(*, deprecated, message: "no longer available ...")
-  public typealias RawValue = Swift.Int
-  nonisolated public static var allCases: [PaygilantSDK.ScreenListenerType] {
-    get
-  }
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "no longer available ...")
-@objcMembers public class ScreenListenerTypeToString : ObjectiveC.NSObject {
-  @objc public static func toString(type: PaygilantSDK.ScreenListenerType) -> Swift.String
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public static func fromString(string: Swift.String) -> PaygilantSDK.ScreenListenerType
-  @available(*, deprecated, message: "no longer available ...")
-  public static func fromString(nillableString: Swift.String) -> PaygilantSDK.ScreenListenerType?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "no longer available ...")
-@objcMembers public class ScreenListenerTypeEnumerator : ObjectiveC.NSObject {
-  public static func array() -> [PaygilantSDK.ScreenListenerType]
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc override dynamic public init()
-  @objc deinit
-}
 @objc public enum PaygilantError : Swift.Int, Swift.Error {
   case MESSAGE_SERVER_URL
   case SET_APPROVE_POLICY_TO_TRUE
@@ -101,50 +50,8 @@ import _SwiftConcurrencyShims
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @objc public func isApprovePolicy() -> Swift.Bool
-  @objc @available(*, deprecated, message: "no longer available ...")
-  public func onRequestAccess(typeMobilePermission: PaygilantSDK.MobilePermission)
   @objc deinit
 }
-@objc public enum MobilePermission : Swift.Int, Swift.CaseIterable {
-  case readContacts
-  case readContactsLimited
-  case ACCESS_FINE_LOCATION
-  case ACCESS_COARSE_LOCATION
-  case camera
-  case photo
-  case photoLimited
-  case idfa
-  public init?(rawValue: Swift.Int)
-  public typealias AllCases = [PaygilantSDK.MobilePermission]
-  public typealias RawValue = Swift.Int
-  nonisolated public static var allCases: [PaygilantSDK.MobilePermission] {
-    get
-  }
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionToString : ObjectiveC.NSObject {
-  @objc public static func toString(type: PaygilantSDK.MobilePermission) -> Swift.String
-  @objc public static func fromString(string: Swift.String) -> PaygilantSDK.MobilePermission
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @_inheritsConvenienceInitializers @objcMembers public class MobilePermissionEnumerator : ObjectiveC.NSObject {
-  public static func array() -> [PaygilantSDK.MobilePermission]
-  @objc public static func dictionary() -> [Swift.String : Foundation.NSNumber]
-  @objc override dynamic public init()
-  @objc deinit
-}
-@available(*, deprecated, message: "no longer available ...")
-extension PaygilantSDK.ScreenListenerType : Swift.Equatable {}
-@available(*, deprecated, message: "no longer available ...")
-extension PaygilantSDK.ScreenListenerType : Swift.Hashable {}
-@available(*, deprecated, message: "no longer available ...")
-extension PaygilantSDK.ScreenListenerType : Swift.RawRepresentable {}
 extension PaygilantSDK.PaygilantError : Swift.Equatable {}
 extension PaygilantSDK.PaygilantError : Swift.Hashable {}
 extension PaygilantSDK.PaygilantError : Swift.RawRepresentable {}
-extension PaygilantSDK.MobilePermission : Swift.Equatable {}
-extension PaygilantSDK.MobilePermission : Swift.Hashable {}
-extension PaygilantSDK.MobilePermission : Swift.RawRepresentable {}
