@@ -334,6 +334,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// Initializes a new instance of PaygilantManager.
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+/// Method used for testing purposes, to wipe all states and reset the manager.
++ (void)reset;
 /// Sets up the PaygilantManager instance, compatible with Objective-C.
 /// \param serverUrl The server URL, provided by Paygilant.
 ///
