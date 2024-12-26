@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-4.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-4.2 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PaygilantSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -46,13 +46,38 @@ import _SwiftConcurrencyShims
   public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
   @objc public static var shared: PaygilantSDK.PaygilantManager
   @objc public static func reset()
-  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
+  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @objc public func isApprovePolicy() -> Swift.Bool
   @objc deinit
 }
+@objc public enum CrossPlatformType : Swift.Int {
+  case reactNative
+  case flutter
+  case ionic
+  case nativeScript
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class CrossPlatformVersion : ObjectiveC.NSObject {
+  @objc public init(version: Swift.String, crossPlatformType: PaygilantSDK.CrossPlatformType)
+  @objc deinit
+}
+extension PaygilantSDK.CrossPlatformType : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 extension PaygilantSDK.PaygilantError : Swift.Equatable {}
 extension PaygilantSDK.PaygilantError : Swift.Hashable {}
 extension PaygilantSDK.PaygilantError : Swift.RawRepresentable {}
+extension PaygilantSDK.CrossPlatformType : Swift.Equatable {}
+extension PaygilantSDK.CrossPlatformType : Swift.Hashable {}
+extension PaygilantSDK.CrossPlatformType : Swift.RawRepresentable {}
