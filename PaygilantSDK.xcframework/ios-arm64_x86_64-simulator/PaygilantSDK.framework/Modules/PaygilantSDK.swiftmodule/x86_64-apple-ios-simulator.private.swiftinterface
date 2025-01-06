@@ -46,12 +46,13 @@ import _SwiftConcurrencyShims
   public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
   @objc public static var shared: PaygilantSDK.PaygilantManager
   @objc public static func reset()
-  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
-  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool = false, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @objc public func isApprovePolicy() -> Swift.Bool
+  @objc public func askPaygilantPermissions()
   @objc deinit
 }
 @objc public enum CrossPlatformType : Swift.Int {

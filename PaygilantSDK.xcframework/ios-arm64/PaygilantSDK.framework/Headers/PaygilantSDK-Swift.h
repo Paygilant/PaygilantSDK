@@ -357,11 +357,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// \param clientSessionId Optional client session ID.
 ///
+/// \param toAskPermissions if to ask all Paygilant List Permissions
+///
+/// \param crossPlatform retrieving the cross platform data for manipulate.
+///
 /// \param success Callback for successful setup.
 ///
 /// \param failure Callback for setup failure, with an error description.
 ///
-- (void)setupWithServerUrl:(NSString * _Nonnull)serverUrl clientSessionId:(NSString * _Nullable)clientSessionId crossPlatform:(CrossPlatformVersion * _Nullable)crossPlatform success:(void (^ _Nonnull)(void))success failure:(void (^ _Nonnull)(NSString * _Nonnull))failure;
+- (void)setupWithServerUrl:(NSString * _Nonnull)serverUrl clientSessionId:(NSString * _Nullable)clientSessionId toAskPermissions:(BOOL)toAskPermissions crossPlatform:(CrossPlatformVersion * _Nullable)crossPlatform success:(void (^ _Nonnull)(void))success failure:(void (^ _Nonnull)(NSString * _Nonnull))failure;
 /// Sets up the PaygilantManager instance, compatible with Objective-C.
 /// \param serverUrl The server URL, provided by Paygilant.
 ///
@@ -400,6 +404,55 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// returns:
 /// isApprovePolicy
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
+/// Initiates the permission request process after confirming that the user
+/// has approved the necessary policies.
+/// This method should be invoked once the user has agreed to the application’s
+/// privacy policy or terms of service. It ensures that all necessary runtime
+/// permissions are requested according to the user’s consent and app requirements.
+/// precondition:
+///
+/// <ul>
+///   <li>
+///     User must have agreed to the application’s privacy policy.
+///   </li>
+///   <li>
+///     <code>Info.plist</code> must contain the required NS*UsageDescription keys for
+///     the permissions being requested.
+///   </li>
+/// </ul>
+/// postcondition:
+///
+/// <ul>
+///   <li>
+///     Permissions are requested from the user as needed.
+///   </li>
+///   <li>
+///     The <code>toAskPermissions</code> flag will be set to false after executing,
+///     indicating that the permission request flow has completed or was not needed.
+///   </li>
+/// </ul>
+/// <ul>
+///   <li>
+///     Usage:
+///     Call this method when it’s appropriate to ask the user for permissions,
+///     typically after they have agreed to your privacy policies or when they
+///     are about to use functionality requiring these permissions. Ideal scenarios
+///     include after successful login or during the onboarding process.
+///   </li>
+///   <li>
+///     Example:
+///     \code
+///     if userConsentsToPrivacyPolicy {
+///         PaygilantSDK.shared.askPaygilantPermissions()
+///     }
+///
+///     \endcode</li>
+/// </ul>
+/// <ul>
+///   <li>
+///   </li>
+/// </ul>
+- (void)askPaygilantPermissions;
 @end
 
 #endif

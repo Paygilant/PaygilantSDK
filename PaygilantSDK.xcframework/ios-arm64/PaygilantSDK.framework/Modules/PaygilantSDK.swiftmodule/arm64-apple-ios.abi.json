@@ -640,7 +640,7 @@
           {
             "kind": "Function",
             "name": "setup",
-            "printedName": "setup(serverUrl:clientSessionId:crossPlatform:completion:)",
+            "printedName": "setup(serverUrl:clientSessionId:toAskPermissions:crossPlatform:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -667,6 +667,13 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -716,8 +723,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId13crossPlatform10completionySS_SSSgAA05CrossK7VersionCSgys6ResultOyytAA0A5ErrorOGctKF",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId13crossPlatform10completionySS_SSSgAA05CrossK7VersionCSgys6ResultOyytAA0A5ErrorOGctKF",
+            "usr": "s:12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId16toAskPermissions13crossPlatform10completionySS_SSSgSbAA05CrossN7VersionCSgys6ResultOyytAA0A5ErrorOGctKF",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId16toAskPermissions13crossPlatform10completionySS_SSSgSbAA05CrossN7VersionCSgys6ResultOyytAA0A5ErrorOGctKF",
             "moduleName": "PaygilantSDK",
             "declAttributes": [
               "AccessControl",
@@ -729,7 +736,7 @@
           {
             "kind": "Function",
             "name": "setup",
-            "printedName": "setup(serverUrl:clientSessionId:crossPlatform:success:failure:)",
+            "printedName": "setup(serverUrl:clientSessionId:toAskPermissions:crossPlatform:success:failure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -756,6 +763,12 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
@@ -809,10 +822,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setupWithServerUrl:clientSessionId:crossPlatform:success:failure:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId13crossPlatform7success7failureySS_SSSgAA05CrossK7VersionCSgyycySSctF",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)setupWithServerUrl:clientSessionId:toAskPermissions:crossPlatform:success:failure:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC5setup9serverUrl15clientSessionId16toAskPermissions13crossPlatform7success7failureySS_SSSgSbAA05CrossN7VersionCSgyycySSctF",
             "moduleName": "PaygilantSDK",
-            "objc_name": "setupWithServerUrl:clientSessionId:crossPlatform:success:failure:",
+            "objc_name": "setupWithServerUrl:clientSessionId:toAskPermissions:crossPlatform:success:failure:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -983,6 +996,28 @@
             "declKind": "Func",
             "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)isApprovePolicy",
             "mangledName": "$s12PaygilantSDK0A7ManagerC15isApprovePolicySbyF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "askPaygilantPermissions",
+            "printedName": "askPaygilantPermissions()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)askPaygilantPermissions",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC03askA11PermissionsyyF",
             "moduleName": "PaygilantSDK",
             "declAttributes": [
               "AccessControl",
@@ -1180,6 +1215,13 @@
         "kind": "Import",
         "name": "CoreTelephony.CTCarrier",
         "printedName": "CoreTelephony.CTCarrier",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
         "declKind": "Import",
         "moduleName": "PaygilantSDK"
       },
@@ -2418,14 +2460,28 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12183,
+      "offset": 3615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4758,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12771,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 22521,
+      "offset": 24764,
       "length": 4,
       "value": "1000"
     },
@@ -2845,112 +2901,112 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 680,
       "length": 19,
       "value": "\"permission denied\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 707,
+      "offset": 739,
       "length": 15,
       "value": "\"not available\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 762,
+      "offset": 794,
       "length": 10,
       "value": "\"spyshot\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 844,
       "length": 13,
       "value": "\"collectTime\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 865,
+      "offset": 897,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 906,
+      "offset": 938,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 979,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 988,
+      "offset": 1020,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1029,
+      "offset": 1061,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1073,
+      "offset": 1105,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1166,
+      "offset": 1198,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1218,
+      "offset": 1250,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1270,
+      "offset": 1302,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1322,
+      "offset": 1354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1423,
+      "offset": 1455,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 15771,
+      "offset": 15803,
       "length": 4,
       "value": "true"
     },
