@@ -371,6 +371,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///
 /// \param clientSessionId Optional client session ID.
 ///
+/// \param toAskPermissions if to ask all Paygilant List Permissions
+///
+/// \param success Callback for successful setup.
+///
+/// \param failure Callback for setup failure, with an error description.
+///
+- (void)setupWithServerUrl:(NSString * _Nonnull)serverUrl clientSessionId:(NSString * _Nullable)clientSessionId toAskPermissions:(BOOL)toAskPermissions success:(void (^ _Nonnull)(void))success failure:(void (^ _Nonnull)(NSString * _Nonnull))failure;
+/// Sets up the PaygilantManager instance, compatible with Objective-C.
+/// \param serverUrl The server URL, provided by Paygilant.
+///
+/// \param clientSessionId Optional client session ID.
+///
 /// \param success Callback for successful setup.
 ///
 /// \param failure Callback for setup failure, with an error description.
