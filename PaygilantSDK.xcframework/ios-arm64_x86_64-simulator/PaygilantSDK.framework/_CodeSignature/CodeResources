@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tkPzJtxblXogJIqSR6OsMXpnf58=
+		/jwWy7ixtxQkrW/TZnMfi7KkgUk=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		v/03+GLlWwRZ8kYEYPitzTaBIg4=
+		lB2NAfG25TE0E0UgN9mZXSazz78=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FiHXvP+9xzuU4ZB6iYlvYnHbTQc=
+		/BpTw9T1tUrguyB7Jqabok7FyZI=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		v/03+GLlWwRZ8kYEYPitzTaBIg4=
+		lB2NAfG25TE0E0UgN9mZXSazz78=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5uWRxnVZ3taOGoqxaB/C/gJ5aRg=
+		AE1yZaSkiJqwjfsJKoC/KzNKmHY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E0SIh/69aNOg+zuF8TFe+4Ve402xWbZGh0/uvTxQe4g=
+			x02Ib4Hq2YAEp16VxY3hnRCxEEx5BLUSeQ952HE9xxU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kqyeOpcUpGmrsYmXrJr4U4p7g/CYLoF6ECmR124GXs0=
+			Fi6fOJbStjXVtxTnw67+/P26UTRuZvWMxBwLb+feL9w=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E0SIh/69aNOg+zuF8TFe+4Ve402xWbZGh0/uvTxQe4g=
+			x02Ib4Hq2YAEp16VxY3hnRCxEEx5BLUSeQ952HE9xxU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHAiflKUDtorwGxqBQlb6LTqzI5ZMQxZyON+vhQ4RX8=
+			aLhcVn5snp5s8yjUVPbbGRE50+NGjFT4MFHTI1bVMFw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
