@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/jwWy7ixtxQkrW/TZnMfi7KkgUk=
+		Eyd6U5dYNp8gT+sckZI68lwMUEQ=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lB2NAfG25TE0E0UgN9mZXSazz78=
+		h+gHCS7bU8+YW76uI8Y3ewKCecg=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/BpTw9T1tUrguyB7Jqabok7FyZI=
+		9d3kMBkcQqLis03EMeKVr4Evpw0=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lB2NAfG25TE0E0UgN9mZXSazz78=
+		h+gHCS7bU8+YW76uI8Y3ewKCecg=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AE1yZaSkiJqwjfsJKoC/KzNKmHY=
+		E7raLbFGZYrvrPyX1OZqwCJvTRQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x02Ib4Hq2YAEp16VxY3hnRCxEEx5BLUSeQ952HE9xxU=
+			zTf9DTDoVQSiueMmaK2JnE+b2ivwawkM0YW+s6KiAoQ=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fi6fOJbStjXVtxTnw67+/P26UTRuZvWMxBwLb+feL9w=
+			JSd4vK1URf2G8rP372+RUPT4pdghBPxoeCiLw5fFoDs=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x02Ib4Hq2YAEp16VxY3hnRCxEEx5BLUSeQ952HE9xxU=
+			zTf9DTDoVQSiueMmaK2JnE+b2ivwawkM0YW+s6KiAoQ=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aLhcVn5snp5s8yjUVPbbGRE50+NGjFT4MFHTI1bVMFw=
+			RJUfake6wWWqyX8iar9LOXfufAQ72SIP/yFgP19/HDg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
