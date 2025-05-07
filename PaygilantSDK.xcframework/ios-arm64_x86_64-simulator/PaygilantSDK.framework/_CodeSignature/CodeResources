@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aZzbKAMJB7ktseVU7dWXBgmbvJE=
+		uKtXAhqvRZshGkVLCFLY/uI1C8o=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z/j3i8T0tiKSRLbCpoAbmcJPoGs=
+		/viCfFr2nMC5ZxoiArVjY763RkY=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		J796jL+pu7mTdVX2sRu5Ak1xCsc=
+		MmimgCYJgi1QTn1uvlvdAR1ePC4=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Z/j3i8T0tiKSRLbCpoAbmcJPoGs=
+		/viCfFr2nMC5ZxoiArVjY763RkY=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o5w26Vu1ZjwfHoJWzCJ/tCvYnAk=
+		qxJjzJ5mtDSiC/BJFwlOwh1dSf8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbyT6Vrr1/Iwk4Hu2bFvUwMe8NCtO+N4n/7Mr2gwt0U=
+			eUnsBh6YOkCUPUG0tUdXMGzRWhB+bDsnyCwcOTwRMjM=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c6uq45+TPfu88tXnLjhmk/iPUUPCEFA1uRd28oVFG+E=
+			PiMqz5/ZgnfpEaO8LttFncyCdYFSo6B3YbVm3/OfpdU=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbyT6Vrr1/Iwk4Hu2bFvUwMe8NCtO+N4n/7Mr2gwt0U=
+			eUnsBh6YOkCUPUG0tUdXMGzRWhB+bDsnyCwcOTwRMjM=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ym2RNuj32OCP9I2MiTtU6bVZRFOfNwMg1epo2OeGs3U=
+			w/vs2DhymmAfQvb1c8hI9z3/RNAAqAAXjbqISUJe5D8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
