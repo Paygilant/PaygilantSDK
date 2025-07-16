@@ -64,7 +64,7 @@ import _SwiftConcurrencyShims
   @objc public func isApprovePolicy() -> Swift.Bool
   @objc public func askPaygilantPermissions()
   @objc public func setClientSessionId(_ clientSessionId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void)
-  @objc public func startUserVerification(from viewController: UIKit.UIViewController, userId: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void)
+  @objc public func startUserVerification(from viewController: UIKit.UIViewController, userId: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) throws
 }
 @objc public enum CrossPlatformType : Swift.Int {
   case reactNative

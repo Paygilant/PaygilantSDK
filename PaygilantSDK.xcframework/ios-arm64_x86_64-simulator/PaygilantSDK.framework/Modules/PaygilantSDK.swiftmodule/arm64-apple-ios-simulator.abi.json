@@ -1392,14 +1392,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)startUserVerificationFrom:userId:callback:",
-            "mangledName": "$s12PaygilantSDK0A7ManagerC21startUserVerification4from6userId8callbackySo16UIViewControllerC_SSySbctF",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)startUserVerificationFrom:userId:error:callback:",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC21startUserVerification4from6userId8callbackySo16UIViewControllerC_SSySbctKF",
             "moduleName": "PaygilantSDK",
-            "objc_name": "startUserVerificationFrom:userId:callback:",
+            "objc_name": "startUserVerificationFrom:userId:error:callback:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],

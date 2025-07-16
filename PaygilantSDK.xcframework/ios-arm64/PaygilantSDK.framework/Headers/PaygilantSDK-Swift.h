@@ -488,7 +488,28 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// </ul>
 - (void)askPaygilantPermissions;
 - (void)setClientSessionId:(NSString * _Nonnull)clientSessionId callback:(void (^ _Nonnull)(NSString * _Nonnull))callback;
-- (void)startUserVerificationFrom:(UIViewController * _Nonnull)viewController userId:(NSString * _Nonnull)userId callback:(void (^ _Nonnull)(BOOL))callback;
+/// Starts the user verification flow. Throws on precondition failures.
+/// \param viewController the UIViewController to present the WebView/ASWebAuthenticationSession.
+///
+/// \param userId your app’s user identifier.
+///
+/// \param callback called with <code>true</code> if verification succeeded, <code>false</code> otherwise.
+///
+///
+/// throws:
+///
+/// <ul>
+///   <li>
+///     <code>PaygilantError.SET_APPROVE_POLICY_METHOD_TO_TRUE</code> if policy approval isn’t enabled.
+///   </li>
+///   <li>
+///     <code>PaygilantError.FACE_RECOGNITION_URL_NOT_CONFIGURED</code> if the <code>faceRecognitionUrl</code> is missing or empty.
+///   </li>
+///   <li>
+///     <code>PaygilantError.INVALID_CALLBACK_SCHEME_IN_IOS</code> if the callback URL scheme (<code>paygilant://</code>) is invalid.
+///   </li>
+/// </ul>
+- (BOOL)startUserVerificationFrom:(UIViewController * _Nonnull)viewController userId:(NSString * _Nonnull)userId error:(NSError * _Nullable * _Nullable)error callback:(void (^ _Nonnull)(BOOL))callback;
 @end
 
 #endif
