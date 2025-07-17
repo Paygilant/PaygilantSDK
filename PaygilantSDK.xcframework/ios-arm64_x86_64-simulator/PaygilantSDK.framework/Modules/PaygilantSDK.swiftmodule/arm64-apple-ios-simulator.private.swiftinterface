@@ -36,8 +36,7 @@ import _SwiftConcurrencyShims
   case MESSAGE_SERVER_URL
   case SET_APPROVE_POLICY_METHOD_TO_TRUE
   case ERROR_CONNECTION
-  case FACE_RECOGNITION_URL_NOT_CONFIGURED
-  case INVALID_CALLBACK_SCHEME_IN_IOS
+  case USER_ID_IS_EMPTY
   public var description: Swift.String {
     get
   }

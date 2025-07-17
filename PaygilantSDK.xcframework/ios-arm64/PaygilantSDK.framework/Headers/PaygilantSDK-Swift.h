@@ -357,8 +357,7 @@ typedef SWIFT_ENUM(NSInteger, PaygilantError, open) {
   PaygilantErrorMESSAGE_SERVER_URL = 0,
   PaygilantErrorSET_APPROVE_POLICY_METHOD_TO_TRUE = 1,
   PaygilantErrorERROR_CONNECTION = 2,
-  PaygilantErrorFACE_RECOGNITION_URL_NOT_CONFIGURED = 3,
-  PaygilantErrorINVALID_CALLBACK_SCHEME_IN_IOS = 4,
+  PaygilantErrorUSER_ID_IS_EMPTY = 3,
 };
 static NSString * _Nonnull const PaygilantErrorDomain = @"PaygilantSDK.PaygilantError";
 
@@ -503,10 +502,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 ///     <code>PaygilantError.SET_APPROVE_POLICY_METHOD_TO_TRUE</code> if policy approval isn’t enabled.
 ///   </li>
 ///   <li>
-///     <code>PaygilantError.FACE_RECOGNITION_URL_NOT_CONFIGURED</code> if the <code>faceRecognitionUrl</code> is missing or empty.
+///     <code>PaygilantError.ERROR_CONNECTION </code>if setApprovePolicy method to true.
 ///   </li>
 ///   <li>
-///     <code>PaygilantError.INVALID_CALLBACK_SCHEME_IN_IOS</code> if the callback URL scheme (<code>paygilant://</code>) is invalid.
+///     <code>PaygilantError.USER_ID_IS_EMPTY </code>if userId is empty.
 ///   </li>
 /// </ul>
 - (BOOL)startUserVerificationFrom:(UIViewController * _Nonnull)viewController userId:(NSString * _Nonnull)userId error:(NSError * _Nullable * _Nullable)error callback:(void (^ _Nonnull)(BOOL))callback;

@@ -371,8 +371,8 @@
           },
           {
             "kind": "Var",
-            "name": "FACE_RECOGNITION_URL_NOT_CONFIGURED",
-            "printedName": "FACE_RECOGNITION_URL_NOT_CONFIGURED",
+            "name": "USER_ID_IS_EMPTY",
+            "printedName": "USER_ID_IS_EMPTY",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -402,54 +402,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@PaygilantSDK@E@PaygilantError@PaygilantErrorFACE_RECOGNITION_URL_NOT_CONFIGURED",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO35FACE_RECOGNITION_URL_NOT_CONFIGUREDyA2CmF",
+            "usr": "c:@M@PaygilantSDK@E@PaygilantError@PaygilantErrorUSER_ID_IS_EMPTY",
+            "mangledName": "$s12PaygilantSDK0A5ErrorO16USER_ID_IS_EMPTYyA2CmF",
             "moduleName": "PaygilantSDK",
             "declAttributes": [
               "ObjC"
             ],
             "fixedbinaryorder": 3
-          },
-          {
-            "kind": "Var",
-            "name": "INVALID_CALLBACK_SCHEME_IN_IOS",
-            "printedName": "INVALID_CALLBACK_SCHEME_IN_IOS",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PaygilantSDK.PaygilantError.Type) -> PaygilantSDK.PaygilantError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaygilantError",
-                    "printedName": "PaygilantSDK.PaygilantError",
-                    "usr": "c:@M@PaygilantSDK@E@PaygilantError"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PaygilantSDK.PaygilantError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PaygilantError",
-                        "printedName": "PaygilantSDK.PaygilantError",
-                        "usr": "c:@M@PaygilantSDK@E@PaygilantError"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@PaygilantSDK@E@PaygilantError@PaygilantErrorINVALID_CALLBACK_SCHEME_IN_IOS",
-            "mangledName": "$s12PaygilantSDK0A5ErrorO30INVALID_CALLBACK_SCHEME_IN_IOSyA2CmF",
-            "moduleName": "PaygilantSDK",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -6549,153 +6508,146 @@
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
       "offset": 860,
-      "length": 35,
+      "length": 16,
       "value": "3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 905,
-      "length": 30,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2201,
+      "offset": 2000,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2414,
+      "offset": 2213,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2730,
+      "offset": 2529,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2948,
+      "offset": 2747,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2983,
+      "offset": 2782,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3021,
+      "offset": 2820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3052,
+      "offset": 2851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3316,
+      "offset": 3115,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3401,
+      "offset": 3200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3430,
+      "offset": 3229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3471,
+      "offset": 3270,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "StringLiteral",
-      "offset": 3523,
+      "offset": 3322,
       "length": 5,
       "value": "\"N\/A\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3543,
+      "offset": 3342,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3594,
+      "offset": 3393,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3641,
+      "offset": 3440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3694,
+      "offset": 3493,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3737,
+      "offset": 3536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5103,
+      "offset": 4902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15303,
+      "offset": 15102,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30265,
+      "offset": 30064,
       "length": 4,
       "value": "1000"
     },
