@@ -1244,6 +1244,31 @@
           },
           {
             "kind": "Function",
+            "name": "isApprovePolicy",
+            "printedName": "isApprovePolicy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(cm)isApprovePolicy",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC15isApprovePolicySbyFZ",
+            "moduleName": "PaygilantSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "askPaygilantPermissions",
             "printedName": "askPaygilantPermissions()",
             "children": [
@@ -6647,7 +6672,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30064,
+      "offset": 30279,
       "length": 4,
       "value": "1000"
     },

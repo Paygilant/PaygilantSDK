@@ -437,6 +437,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// returns:
 /// isApprovePolicy
 - (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
+/// checking if our status isApprovePolicy
+///
+/// returns:
+/// isApprovePolicy
++ (BOOL)isApprovePolicy SWIFT_WARN_UNUSED_RESULT;
 /// Initiates the permission request process after confirming that the user
 /// has approved the necessary policies.
 /// This method should be invoked once the user has agreed to the application’s

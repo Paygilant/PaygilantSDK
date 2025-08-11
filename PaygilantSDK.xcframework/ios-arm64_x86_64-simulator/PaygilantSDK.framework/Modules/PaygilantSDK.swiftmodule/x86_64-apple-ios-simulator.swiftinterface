@@ -61,6 +61,7 @@ import _SwiftConcurrencyShims
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @objc public func isApprovePolicy() -> Swift.Bool
+  @objc public static func isApprovePolicy() -> Swift.Bool
   @objc public func askPaygilantPermissions()
   @objc public func setClientSessionId(_ clientSessionId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void)
   @objc public func startUserVerification(from viewController: UIKit.UIViewController, userId: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) throws
