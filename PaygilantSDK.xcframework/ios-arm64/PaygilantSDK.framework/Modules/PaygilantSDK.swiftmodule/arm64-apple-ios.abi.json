@@ -653,6 +653,13 @@
             "printedName": "_ObjectiveCBridgeableError",
             "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
             "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1221,6 +1228,27 @@
           },
           {
             "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PaygilantSDK@objc(cs)PaygilantManager(im)logout",
+            "mangledName": "$s12PaygilantSDK0A7ManagerC6logoutyyF",
+            "moduleName": "PaygilantSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isApprovePolicy",
             "printedName": "isApprovePolicy()",
             "children": [
@@ -1628,16 +1656,6 @@
         "printedName": "AppTrackingTransparency",
         "declKind": "Import",
         "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2812,132 +2830,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 284,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 304,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 325,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 349,
-      "length": 13,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 372,
-      "length": 14,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 12,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 418,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 435,
-      "length": 19,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 464,
-      "length": 8,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 482,
-      "length": 14,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 506,
-      "length": 14,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 530,
-      "length": 7,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 547,
-      "length": 18,
-      "value": "13"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 575,
-      "length": 15,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 600,
-      "length": 14,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 624,
-      "length": 12,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 646,
-      "length": 11,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/ScreenListenerType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 667,
-      "length": 5,
-      "value": "18"
-    },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/AppRunMode.swift",
       "kind": "IntegerLiteral",
@@ -5790,483 +5682,434 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19653,
-      "length": 25,
-      "value": "\"face_verification_delay\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 19717,
+      "offset": 19650,
       "length": 20,
       "value": "\"faceRecognitionUrl\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19772,
+      "offset": 19705,
       "length": 18,
       "value": "\"enable_crash_eye\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19821,
+      "offset": 19754,
       "length": 14,
       "value": "\"app_run_mode\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19870,
+      "offset": 19803,
       "length": 18,
       "value": "\"scan_credit_card\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19925,
+      "offset": 19858,
       "length": 20,
       "value": "\"timeout_connection\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 19988,
+      "offset": 19921,
       "length": 23,
       "value": "\"intervalTimeToCompare\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20051,
-      "length": 23,
-      "value": "\"enable_bio_collection\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 20108,
+      "offset": 19978,
       "length": 17,
       "value": "\"tracing_manager\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20162,
+      "offset": 20032,
       "length": 20,
       "value": "\"face_configuration\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20213,
-      "length": 14,
-      "value": "\"activity_map\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 20266,
-      "length": 23,
-      "value": "\"screen_listeners_list\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 20323,
+      "offset": 20086,
       "length": 17,
       "value": "\"screen_listener\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20382,
-      "length": 25,
-      "value": "\"checkpoint_screens_list\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 20438,
+      "offset": 20134,
       "length": 14,
       "value": "\"compare_list\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20485,
+      "offset": 20181,
       "length": 16,
       "value": "\"max_trace_data\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20546,
+      "offset": 20242,
       "length": 28,
       "value": "\"restart_Time_Ms_thread_sdk\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20623,
+      "offset": 20319,
       "length": 32,
       "value": "\"restart_coefficient_thread_sdk\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20689,
+      "offset": 20385,
       "length": 17,
       "value": "\"level_exception\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20751,
+      "offset": 20447,
       "length": 28,
       "value": "\"level_connection_exception\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20814,
+      "offset": 20510,
       "length": 18,
       "value": "\"level_pg_manager\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20869,
+      "offset": 20565,
       "length": 20,
       "value": "\"level_sending_data\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20936,
+      "offset": 20632,
       "length": 30,
       "value": "\"level_face_verification_data\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 20999,
+      "offset": 20695,
       "length": 14,
       "value": "\"awsAccessKey\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21046,
+      "offset": 20742,
       "length": 14,
       "value": "\"awsSecretKey\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21092,
+      "offset": 20788,
       "length": 14,
       "value": "\"scanovateURL\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21132,
+      "offset": 20828,
       "length": 9,
       "value": "\"regions\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21179,
+      "offset": 20875,
       "length": 20,
       "value": "\"verificationVendor\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21240,
+      "offset": 20936,
       "length": 24,
       "value": "\"is_in_fraud_collection\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21295,
+      "offset": 20991,
       "length": 14,
       "value": "\"is_enrolment\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21339,
+      "offset": 21035,
       "length": 20,
       "value": "\"screenListenerType\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21387,
+      "offset": 21083,
       "length": 10,
       "value": "\"screenId\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21433,
+      "offset": 21129,
       "length": 17,
       "value": "\"compareDataType\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21479,
+      "offset": 21175,
       "length": 11,
       "value": "\"isCompare\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21526,
+      "offset": 21222,
       "length": 17,
       "value": "\"timeDelayDevice\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21579,
+      "offset": 21275,
       "length": 17,
       "value": "\"timeDelaySignal\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21634,
+      "offset": 21330,
       "length": 19,
       "value": "\"timeDelayLocation\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21689,
+      "offset": 21385,
       "length": 18,
       "value": "\"EnrichmentConfig\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21760,
+      "offset": 21456,
       "length": 34,
       "value": "\"experimentalAttributesCollection\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21833,
+      "offset": 21529,
       "length": 20,
       "value": "\"enableCrashLogging\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 21892,
-      "length": 20,
-      "value": "\"enableErrorLogging\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 21937,
-      "length": 8,
-      "value": "\"bearer\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
-      "kind": "StringLiteral",
-      "offset": 21976,
+      "offset": 21580,
       "length": 13,
       "value": "\"tracingData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22018,
+      "offset": 21622,
       "length": 12,
       "value": "\"sdk_config\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22059,
+      "offset": 21663,
       "length": 12,
       "value": "\"authorized\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "IntegerLiteral",
-      "offset": 22093,
+      "offset": 21697,
       "length": 5,
       "value": "60000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "FloatLiteral",
-      "offset": 22149,
+      "offset": 21753,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "FloatLiteral",
-      "offset": 22190,
+      "offset": 21794,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22225,
+      "offset": 21829,
       "length": 13,
       "value": "\"sendTracing\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22274,
+      "offset": 21878,
       "length": 21,
       "value": "\"getSdkConfiguration\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22324,
+      "offset": 21928,
       "length": 16,
       "value": "\"sendECrashData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22372,
+      "offset": 21976,
       "length": 13,
       "value": "\"getDeviceID\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22421,
+      "offset": 22025,
       "length": 17,
       "value": "\"sendSessionData\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22470,
+      "offset": 22074,
       "length": 15,
       "value": "\"no_session_id\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22530,
+      "offset": 22134,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22583,
+      "offset": 22187,
       "length": 8,
       "value": "\"denied\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22625,
+      "offset": 22229,
       "length": 16,
       "value": "\"AppleKeyboards\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22686,
+      "offset": 22290,
       "length": 28,
       "value": "\"include_config_in_response\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22737,
+      "offset": 22341,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22773,
+      "offset": 22377,
       "length": 12,
       "value": "\"threadName\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22815,
+      "offset": 22419,
       "length": 12,
       "value": "\"methodName\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22856,
+      "offset": 22460,
       "length": 11,
       "value": "\"paramList\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22905,
+      "offset": 22509,
       "length": 19,
       "value": "\"statusLoggingType\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 22963,
+      "offset": 22567,
       "length": 20,
       "value": "\"permissionListSize\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 23009,
+      "offset": 22613,
       "length": 9,
       "value": "\"app_key\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 23045,
+      "offset": 22649,
       "length": 10,
       "value": "\"app_uuid\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 23080,
+      "offset": 22684,
       "length": 8,
       "value": "\"MOBILE\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 23117,
+      "offset": 22721,
       "length": 11,
       "value": "\"bootCount\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGDataConsts.swift",
       "kind": "StringLiteral",
-      "offset": 23166,
+      "offset": 22770,
       "length": 20,
       "value": "\"preferredLanguages\""
     },
@@ -6482,22 +6325,29 @@
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 16,
+      "value": "\"isExperimental\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 3934,
+      "offset": 4068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 3970,
+      "offset": 4104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 4053,
+      "offset": 4187,
       "length": 11,
       "value": "\"shareData\""
     },
@@ -6658,7 +6508,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 30426,
+      "offset": 30964,
       "length": 4,
       "value": "1000"
     },
@@ -6714,107 +6564,72 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 212,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 338,
+      "offset": 253,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 382,
+      "offset": 297,
       "length": 5,
       "value": "30000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 427,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 466,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 571,
+      "offset": 336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "Array",
-      "offset": 632,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "Array",
-      "offset": 685,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "Array",
-      "offset": 727,
+      "offset": 450,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 767,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 810,
+      "offset": 490,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 856,
+      "offset": 536,
       "length": 5,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 907,
+      "offset": 587,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 972,
+      "offset": 621,
       "length": 5,
       "value": "60000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 629,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/SdkConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 725,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/DataCompression.swift",
@@ -7211,7 +7026,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 14498,
+      "offset": 14548,
       "length": 4,
       "value": "true"
     },
