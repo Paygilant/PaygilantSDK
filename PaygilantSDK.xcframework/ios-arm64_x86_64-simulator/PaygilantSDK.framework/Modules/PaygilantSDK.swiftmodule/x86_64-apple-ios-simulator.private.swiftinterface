@@ -17,6 +17,8 @@ import CoreLocation
 import CoreTelephony
 import EventKitUI
 import Foundation
+import Network
+import NetworkExtension
 @_exported import PaygilantSDK
 import Photos
 import SafariServices
