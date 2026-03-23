@@ -6312,21 +6312,21 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 4068,
+      "offset": 4072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 4104,
+      "offset": 4108,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 4191,
       "length": 11,
       "value": "\"shareData\""
     },
@@ -6494,7 +6494,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31803,
+      "offset": 32565,
       "length": 4,
       "value": "1000"
     },
@@ -6907,133 +6907,161 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 882,
       "length": 19,
       "value": "\"permission denied\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 935,
+      "offset": 941,
       "length": 15,
       "value": "\"not available\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 996,
       "length": 10,
       "value": "\"spyshot\/\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 1046,
       "length": 13,
       "value": "\"collectTime\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1093,
+      "offset": 1099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1134,
+      "offset": 1140,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1175,
+      "offset": 1181,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1216,
+      "offset": 1222,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1257,
+      "offset": 1263,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "IntegerLiteral",
-      "offset": 1301,
+      "offset": 1307,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1394,
+      "offset": 1400,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1446,
+      "offset": 1452,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1498,
+      "offset": 1504,
       "length": 12,
       "value": "[-1, -1, -1]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1550,
+      "offset": 1556,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 1825,
+      "offset": 1831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "Array",
-      "offset": 1878,
+      "offset": 1884,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 28,
+      "value": "\"com.paygilant.wifi.monitor\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 12657,
+      "offset": 2138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12880,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 13999,
+      "offset": 14222,
       "length": 3,
-      "value": "0.1"
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 21038,
+      "offset": 16490,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
+      "kind": "FloatLiteral",
+      "offset": 21292,
       "length": 3,
       "value": "1.0"
     },
