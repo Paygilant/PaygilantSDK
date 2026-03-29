@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-4.2 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaygilantSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3 effective-4.2 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4.2 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaygilantSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -31,9 +31,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class ToastMessage {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func displayToastMessage(_ message: Swift.String, duration: Swift.Double? = 0.5, delay: Swift.Double? = 0.0)
-  #endif
   @objc deinit
 }
 @objc public enum PaygilantError : Swift.Int, Swift.Error {
@@ -44,9 +42,7 @@ import _SwiftConcurrencyShims
   public var description: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get
@@ -59,18 +55,10 @@ import _SwiftConcurrencyShims
   public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
   @objc public static var shared: PaygilantSDK.PaygilantManager
   @objc public static func reset()
-  #if compiler(>=5.3) && $NonescapableTypes
   public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool = false, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
-  #endif
   @objc deinit
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
@@ -87,9 +75,7 @@ import _SwiftConcurrencyShims
   case ionic
   case nativeScript
   case none
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
