@@ -6510,22 +6510,43 @@
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3683,
+      "length": 27,
+      "value": "\"com.paygilant.sdk.session\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3785,
+      "length": 33,
+      "value": "\"com.paygilant.sdk.clientSession\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3889,
+      "length": 29,
+      "value": "\"com.paygilant.sdk.sessionId\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4992,
+      "offset": 5296,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15370,
+      "offset": 15665,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 32734,
+      "offset": 33015,
       "length": 4,
       "value": "1000"
     },
@@ -7050,35 +7071,42 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 11800,
+      "offset": 11806,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 13141,
+      "offset": 13147,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 18212,
+      "offset": 18218,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/NetworkCallMaker.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 27,
+      "value": "\"com.paygilant.sdk.network\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/NetworkCallMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 465,
+      "offset": 556,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Network\/NetworkCallMaker.swift",
       "kind": "BooleanLiteral",
-      "offset": 514,
+      "offset": 605,
       "length": 4,
       "value": "true"
     },
@@ -7106,49 +7134,49 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 455,
       "length": 28,
       "value": "\"com.paygilant.wifi.monitor\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 584,
+      "offset": 596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 615,
+      "offset": 627,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 662,
+      "offset": 674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 701,
+      "offset": 713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "FloatLiteral",
-      "offset": 2385,
+      "offset": 2397,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3118,
+      "offset": 3130,
       "length": 3,
       "value": "0.3"
     },
