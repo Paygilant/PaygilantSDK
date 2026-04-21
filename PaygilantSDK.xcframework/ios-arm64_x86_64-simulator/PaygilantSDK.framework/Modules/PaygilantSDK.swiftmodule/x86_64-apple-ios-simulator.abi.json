@@ -177,6 +177,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Contacts",
         "printedName": "Contacts",
         "declKind": "Import",
@@ -1800,6 +1817,16 @@
         "printedName": "AdSupport",
         "declKind": "Import",
         "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -6306,6 +6333,20 @@
       "value": "\"FlagsChanged\""
     },
     {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 25,
+      "value": "\"com.paygilant.callstate\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
       "offset": 201,
@@ -7078,21 +7119,21 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 11806,
+      "offset": 11986,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 13147,
+      "offset": 13327,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 18218,
+      "offset": 18398,
       "length": 3,
       "value": "1.0"
     },
@@ -7648,6 +7689,34 @@
       "offset": 5917,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 17,
+      "value": "\"CALL_STATE_IDLE\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 20,
+      "value": "\"CALL_STATE_RINGING\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 20,
+      "value": "\"CALL_STATE_OFFHOOK\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 20,
+      "value": "\"UNKNOWN_CALL_STATE\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/LoggingData\/LoggingData.swift",
