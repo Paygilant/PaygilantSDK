@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NYfC4d/5OAGoLkppD9AcbyyLd5M=
+		5Lzjrbt/r8tTm6UcJtv1vMsTbuE=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+F+cjtWsZ8ty/GXP13SpGzVgw14=
+		1KGLNtQwZsOmx48rUfB59aCLXTQ=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rFYny862SwcJnIboPYNo3UMPV/w=
+		P1wpCIn2/s8ZKPcF4oHMz83r1F0=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rFYny862SwcJnIboPYNo3UMPV/w=
+		P1wpCIn2/s8ZKPcF4oHMz83r1F0=
 		</data>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		K/cki0XsR6cugDeqDbuA0GIYwH4=
+		2mtmWc6jxPRpJtLrrK5Sa9KU+FA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+F+cjtWsZ8ty/GXP13SpGzVgw14=
+			1KGLNtQwZsOmx48rUfB59aCLXTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			SQG9586zUcbtZhPVVZQmQpl8wcg781JYUp2rxVK+3+k=
+			8UZuryBSxut2vwkn+MfgFBDydabJoEPC44MZtluuwJc=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rFYny862SwcJnIboPYNo3UMPV/w=
+			P1wpCIn2/s8ZKPcF4oHMz83r1F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zYApy+GhP2F4BdWiNfqQ/losZtxnWX5ppKUKbOMg9c=
+			iJsgm1YuD6z5gGmBYTtBTlzIg+vSOJm77YN+MkKaNwA=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -106,22 +106,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rFYny862SwcJnIboPYNo3UMPV/w=
+			P1wpCIn2/s8ZKPcF4oHMz83r1F0=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zYApy+GhP2F4BdWiNfqQ/losZtxnWX5ppKUKbOMg9c=
+			iJsgm1YuD6z5gGmBYTtBTlzIg+vSOJm77YN+MkKaNwA=
 			</data>
 		</dict>
 		<key>Modules/PaygilantSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/cki0XsR6cugDeqDbuA0GIYwH4=
+			2mtmWc6jxPRpJtLrrK5Sa9KU+FA=
 			</data>
 			<key>hash2</key>
 			<data>
-			mntCmhr0aZm/Cny+zcM5Q1Pb9ejebAHe+1KwlNlUwjY=
+			qFPen6ENRE2GbbxjrIKYP0ovOwj9DAv9Hgv63Vyavw4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
