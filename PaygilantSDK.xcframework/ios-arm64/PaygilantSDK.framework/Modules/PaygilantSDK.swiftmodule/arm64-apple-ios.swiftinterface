@@ -63,6 +63,7 @@ import _SwiftConcurrencyShims
   @objc deinit
   @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
   @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
+  @available(*, deprecated, message: "If using Client Session ID, use `setClientSessionId(_:callback:)` instead.")
   @objc public func logout()
   @objc public func isApprovePolicy() -> Swift.Bool
   @objc public static func isApprovePolicy() -> Swift.Bool

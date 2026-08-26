@@ -497,7 +497,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PaygilantManager * _No
 /// \param approvePolicy approvePolicy ,default: true
 ///
 - (void)setApprovePolicy:(BOOL)approvePolicy;
-- (void)logout;
+- (void)logout SWIFT_DEPRECATED_MSG("If using Client Session ID, use `setClientSessionId(_:callback:)` instead.");
 /// checking if our status isApprovePolicy
 ///
 /// returns:
