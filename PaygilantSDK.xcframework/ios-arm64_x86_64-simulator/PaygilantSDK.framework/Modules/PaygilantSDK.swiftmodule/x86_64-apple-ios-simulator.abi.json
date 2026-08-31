@@ -6176,14 +6176,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1079,
+      "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1114,
+      "offset": 1235,
       "length": 5,
       "value": "false"
     },
@@ -6400,21 +6400,21 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 5999,
+      "offset": 6042,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 6035,
+      "offset": 6078,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 6118,
+      "offset": 6129,
       "length": 11,
       "value": "\"shareData\""
     },
@@ -6596,7 +6596,7 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36818,
+      "offset": 37158,
       "length": 4,
       "value": "1000"
     },
@@ -6641,6 +6641,13 @@
       "offset": 345,
       "length": 24,
       "value": "5"
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/compareDataType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 10,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/LoggingData\/TracingManager.swift",
