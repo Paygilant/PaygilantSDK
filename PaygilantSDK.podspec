@@ -8,7 +8,7 @@ DESC
 spec.name         = "PaygilantSDK"
 spec.homepage     = "http://www.paygilant.com"
 spec.author             = { "Paygilant" => "elia@paygilant.com" }
-spec.platform     = :ios, "10.0"
+spec.platform     = :ios, "15.0"
 spec.swift_version  = '5.0'
 spec.license      = "MIT"
 spec.source       = { :git => "https://github.com/Paygilant/PaygilantSDK.git",  :tag => "#{spec.version}"
