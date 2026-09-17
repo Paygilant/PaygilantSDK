@@ -194,6 +194,13 @@
       },
       {
         "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Contacts",
         "printedName": "Contacts",
         "declKind": "Import",
@@ -6176,14 +6183,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1200,
+      "offset": 1141,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1235,
+      "offset": 1176,
       "length": 5,
       "value": "false"
     },
@@ -6337,14 +6344,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 694,
       "length": 25,
       "value": "\"com.paygilant.callstate\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 439,
+      "offset": 747,
       "length": 5,
       "value": "false"
     },
@@ -6399,22 +6406,29 @@
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 21,
+      "value": "\"isChinaRegionCached\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 6042,
+      "offset": 6674,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "BooleanLiteral",
-      "offset": 6078,
+      "offset": 6710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/Utils\/AppSettings.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 6761,
       "length": 11,
       "value": "\"shareData\""
     },
@@ -6589,14 +6603,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16204,
+      "offset": 16682,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37158,
+      "offset": 37636,
       "length": 4,
       "value": "1000"
     },
@@ -7128,21 +7142,21 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 12025,
+      "offset": 11934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 13366,
+      "offset": 13362,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 18437,
+      "offset": 18433,
       "length": 3,
       "value": "1.0"
     },
@@ -7712,6 +7726,13 @@
       "offset": 319,
       "length": 20,
       "value": "\"UNKNOWN_CALL_STATE\""
+    },
+    {
+      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 27,
+      "value": "\"CALL_STATE_CHINA_DISABLED\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/LoggingData\/LoggingData.swift",
