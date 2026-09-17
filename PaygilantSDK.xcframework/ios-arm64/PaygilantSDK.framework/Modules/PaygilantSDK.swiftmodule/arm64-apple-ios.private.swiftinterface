@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.4 effective-4.2 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -language-mode 4.2 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaygilantSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-4.2 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaygilantSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AVFoundation
 import AdSupport
 import AppTrackingTransparency
@@ -23,6 +23,7 @@ import Network
 import NetworkExtension
 @_exported import PaygilantSDK
 import Photos
+import SafariServices
 import StoreKit
 import Swift
 import SystemConfiguration
@@ -31,79 +32,79 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class ToastMessage {
-  public static func displayToastMessage(_ message: Swift::String, duration: Swift::Double? = 0.5, delay: Swift::Double? = 0.0)
+  public static func displayToastMessage(_ message: Swift.String, duration: Swift.Double? = 0.5, delay: Swift.Double? = 0.0)
   @objc deinit
 }
-@objc public enum PaygilantError : Swift::Int, Swift::Error {
+@objc public enum PaygilantError : Swift.Int, Swift.Error {
   case MESSAGE_SERVER_URL
   case SET_APPROVE_POLICY_METHOD_TO_TRUE
   case ERROR_CONNECTION
   case USER_ID_IS_EMPTY
-  public var description: Swift::String {
+  public var description: Swift.String {
     get
   }
-  public init?(rawValue: Swift::Int)
-  public typealias RawValue = Swift::Int
-  public static var _nsErrorDomain: Swift::String {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
     get
   }
-  public var rawValue: Swift::Int {
+  public var rawValue: Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC::NSObject {
-  public typealias PaygilantCompletion = (Swift::Result<Swift::Void, PaygilantSDK::PaygilantError>) -> Swift::Void
-  @objc public static var shared: PaygilantSDK::PaygilantManager
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers public class PaygilantManager : ObjectiveC.NSObject {
+  public typealias PaygilantCompletion = (Swift.Result<Swift.Void, PaygilantSDK.PaygilantError>) -> Swift.Void
+  @objc public static var shared: PaygilantSDK.PaygilantManager
   @objc public static func reset()
-  public func setup(serverUrl: Swift::String, clientSessionId: Swift::String? = nil, toAskPermissions: Swift::Bool = false, crossPlatform: PaygilantSDK::CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK::PaygilantManager.PaygilantSDK::PaygilantCompletion) throws
-  @objc public func setup(serverUrl: Swift::String, clientSessionId: Swift::String? = nil, toAskPermissions: Swift::Bool, crossPlatform: PaygilantSDK::CrossPlatformVersion? = nil, success: @escaping () -> Swift::Void, failure: @escaping (Swift::String) -> Swift::Void)
-  @objc public func setup(serverUrl: Swift::String, clientSessionId: Swift::String? = nil, toAskPermissions: Swift::Bool, success: @escaping () -> Swift::Void, failure: @escaping (Swift::String) -> Swift::Void)
-  @objc public func setup(serverUrl: Swift::String, clientSessionId: Swift::String? = nil, success: @escaping () -> Swift::Void, failure: @escaping (Swift::String) -> Swift::Void)
+  public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool = false, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, completion: @escaping PaygilantSDK.PaygilantManager.PaygilantCompletion) throws
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool, crossPlatform: PaygilantSDK.CrossPlatformVersion? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, toAskPermissions: Swift.Bool, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
+  @objc public func setup(serverUrl: Swift.String, clientSessionId: Swift.String? = nil, success: @escaping () -> Swift.Void, failure: @escaping (Swift.String) -> Swift.Void)
   @objc deinit
-  @objc public func getSessionId(sessionIdCallback: @escaping (Swift::String) -> Swift::Void)
-  @objc public func setApprovePolicy(_ approvePolicy: Swift::Bool = true)
+  @objc public func getSessionId(sessionIdCallback: @escaping (Swift.String) -> Swift.Void)
+  @objc public func setApprovePolicy(_ approvePolicy: Swift.Bool = true)
   @available(*, deprecated, message: "If using Client Session ID, use `setClientSessionId(_:callback:)` instead.")
   @objc public func logout()
-  @objc public func isApprovePolicy() -> Swift::Bool
-  @objc public static func isApprovePolicy() -> Swift::Bool
+  @objc public func isApprovePolicy() -> Swift.Bool
+  @objc public static func isApprovePolicy() -> Swift.Bool
   @objc public func askPaygilantPermissions()
-  @objc public func setClientSessionId(_ clientSessionId: Swift::String, callback: @escaping (Swift::String) -> Swift::Void)
-  @objc public func startUserVerification(from viewController: UIKit::UIViewController, userId: Swift::String, callback: @escaping (Swift::Bool) -> Swift::Void) throws
+  @objc public func setClientSessionId(_ clientSessionId: Swift.String, callback: @escaping (Swift.String) -> Swift.Void)
+  @objc public func startUserVerification(from viewController: UIKit.UIViewController, userId: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void) throws
 }
-@objc public enum CrossPlatformType : Swift::Int {
+@objc public enum CrossPlatformType : Swift.Int {
   case reactNative
   case flutter
   case ionic
   case nativeScript
   case none
-  public init?(rawValue: Swift::Int)
-  public typealias RawValue = Swift::Int
-  public var rawValue: Swift::Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
-@_inheritsConvenienceInitializers @objc public class FaceVerificationManager : ObjectiveC::NSObject {
-  @objc public static let shared: PaygilantSDK::FaceVerificationManager
-  @objc public func verify(from viewController: UIKit::UIViewController, userId: Swift::String, sessionId: Swift::String, callback: @escaping (Swift::Bool) -> Swift::Void)
+@_inheritsConvenienceInitializers @objc public class FaceVerificationManager : ObjectiveC.NSObject {
+  @objc public static let shared: PaygilantSDK.FaceVerificationManager
+  @objc public func verify(from viewController: UIKit.UIViewController, userId: Swift.String, sessionId: Swift.String, callback: @escaping (Swift.Bool) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @objcMembers public class CrossPlatformVersion : ObjectiveC::NSObject {
-  @objc public var version: Swift::String
-  @objc public var crossPlatformType: PaygilantSDK::CrossPlatformType
+@objc @_inheritsConvenienceInitializers @objcMembers public class CrossPlatformVersion : ObjectiveC.NSObject {
+  @objc public var version: Swift.String
+  @objc public var crossPlatformType: PaygilantSDK.CrossPlatformType
   @objc override dynamic public init()
-  @objc public init(version: Swift::String, crossPlatformType: PaygilantSDK::CrossPlatformType)
-  @objc public func getJson() -> [Swift::String : Any]
+  @objc public init(version: Swift.String, crossPlatformType: PaygilantSDK.CrossPlatformType)
+  @objc public func getJson() -> [Swift.String : Any]
   @objc deinit
 }
-extension PaygilantSDK::CrossPlatformType : Swift::CustomStringConvertible {
-  public var description: Swift::String {
+extension PaygilantSDK.CrossPlatformType : Swift.CustomStringConvertible {
+  public var description: Swift.String {
     get
   }
 }
-extension PaygilantSDK::PaygilantError : Swift::Equatable {}
-extension PaygilantSDK::PaygilantError : Swift::Hashable {}
-extension PaygilantSDK::PaygilantError : Swift::RawRepresentable {}
-extension PaygilantSDK::CrossPlatformType : Swift::Equatable {}
-extension PaygilantSDK::CrossPlatformType : Swift::Hashable {}
-extension PaygilantSDK::CrossPlatformType : Swift::RawRepresentable {}
+extension PaygilantSDK.PaygilantError : Swift.Equatable {}
+extension PaygilantSDK.PaygilantError : Swift.Hashable {}
+extension PaygilantSDK.PaygilantError : Swift.RawRepresentable {}
+extension PaygilantSDK.CrossPlatformType : Swift.Equatable {}
+extension PaygilantSDK.CrossPlatformType : Swift.Hashable {}
+extension PaygilantSDK.CrossPlatformType : Swift.RawRepresentable {}

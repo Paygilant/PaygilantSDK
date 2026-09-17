@@ -194,13 +194,6 @@
       },
       {
         "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "PaygilantSDK"
-      },
-      {
-        "kind": "Import",
         "name": "Contacts",
         "printedName": "Contacts",
         "declKind": "Import",
@@ -2275,6 +2268,13 @@
         "kind": "Import",
         "name": "AuthenticationServices",
         "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "PaygilantSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
         "declKind": "Import",
         "moduleName": "PaygilantSDK"
       },
@@ -6176,14 +6176,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1141,
+      "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PGData\/CheckPointAdditionalData.swift",
       "kind": "BooleanLiteral",
-      "offset": 1176,
+      "offset": 1235,
       "length": 5,
       "value": "false"
     },
@@ -6337,14 +6337,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 386,
       "length": 25,
       "value": "\"com.paygilant.callstate\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/PGCallStateMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4163,
+      "offset": 439,
       "length": 5,
       "value": "false"
     },
@@ -6589,14 +6589,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16101,
+      "offset": 16204,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36786,
+      "offset": 37158,
       "length": 4,
       "value": "1000"
     },
@@ -7128,21 +7128,21 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "BooleanLiteral",
-      "offset": 11301,
+      "offset": 12025,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 12729,
+      "offset": 13366,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/DeviceDataCollector.swift",
       "kind": "FloatLiteral",
-      "offset": 17105,
+      "offset": 18437,
       "length": 3,
       "value": "1.0"
     },
@@ -7170,42 +7170,42 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "StringLiteral",
-      "offset": 240,
+      "offset": 264,
       "length": 26,
       "value": "\"com.paygilant.wifi.start\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 365,
       "length": 28,
       "value": "\"com.paygilant.wifi.monitor\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 452,
+      "offset": 476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 499,
+      "offset": 523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 538,
+      "offset": 562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/WifiManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3036,
+      "offset": 3060,
       "length": 3,
       "value": "0.3"
     },
@@ -7712,13 +7712,6 @@
       "offset": 319,
       "length": 20,
       "value": "\"UNKNOWN_CALL_STATE\""
-    },
-    {
-      "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/DeviceData\/CallStateEnum.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 27,
-      "value": "\"CALL_STATE_CHINA_DISABLED\""
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/LoggingData\/LoggingData.swift",
