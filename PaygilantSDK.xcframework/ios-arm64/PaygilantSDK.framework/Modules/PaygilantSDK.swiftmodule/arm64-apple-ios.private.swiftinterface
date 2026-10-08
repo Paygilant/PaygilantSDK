@@ -7,7 +7,6 @@ import AdSupport
 import AppTrackingTransparency
 import AuthenticationServices
 import CoreTelephony.CTCarrier
-import CallKit
 import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CommonCrypto/*.CC_LONG*/
@@ -21,6 +20,7 @@ import EventKitUI
 import Foundation
 import Network
 import NetworkExtension
+import ObjectiveC
 @_exported import PaygilantSDK
 import Photos
 import SafariServices
