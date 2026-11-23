@@ -6617,14 +6617,14 @@
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19334,
+      "offset": 19379,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/np\/Documents\/GitHub\/PaygilantIOS\/PaygilantSDK\/PaygilantManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 40890,
+      "offset": 40935,
       "length": 4,
       "value": "1000"
     },
